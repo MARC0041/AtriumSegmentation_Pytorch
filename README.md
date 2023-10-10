@@ -19,10 +19,33 @@ Task02_Heart/dataset.json
 
 ## Setup conda env
 ```
-conda create --prefix ./pytorch_arm64_atrium python=3.9
-conda activate ./pytorch_arm64_atrium
+conda create --prefix ./pytorchatrium python=3.8
+conda activate ./pytorchatrium
 
-conda install pytorch::pytorch torchvision torchaudio -c pytorch -y
+conda install numpy
+conda install pandas -y
+conda install matplotlib -y
+conda install -c conda-forge tqdm
+conda install dicom2nifti nibabel pydicom -y
+
+<!-- conda install pytorch::pytorch torchvision torchaudio -c pytorch -y
 conda install pandas numpy matplotlib -y
+conda uninstall numpy
+conda install numpy -->
 ```
 *When running the notebook cell in vs code, it will prompt you to download the notebook package. 
+*When python=3.9, there was an issue with import numpy. May also be because I installed pytorch first? 
+
+At this stage you should be able to run the following import commands without issue:
+```
+import os
+import sys
+for p in sys.path:
+    print(p)
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from pathlib import Path
+from tqdm.notebook import tqdm 
+import nibabel as nib
+```

@@ -1,0 +1,3149 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/Users/marcusc/miniforge3/pkgs/pydicom-2.4.3-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "bin/pydicom",
+    "lib/python3.8/site-packages/pydicom-2.4.3.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pydicom-2.4.3.dist-info/LICENSE",
+    "lib/python3.8/site-packages/pydicom-2.4.3.dist-info/METADATA",
+    "lib/python3.8/site-packages/pydicom-2.4.3.dist-info/RECORD",
+    "lib/python3.8/site-packages/pydicom-2.4.3.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pydicom-2.4.3.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pydicom-2.4.3.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pydicom-2.4.3.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pydicom/__init__.py",
+    "lib/python3.8/site-packages/pydicom/_dicom_dict.py",
+    "lib/python3.8/site-packages/pydicom/_private_dict.py",
+    "lib/python3.8/site-packages/pydicom/_storage_sopclass_uids.py",
+    "lib/python3.8/site-packages/pydicom/_uid_dict.py",
+    "lib/python3.8/site-packages/pydicom/_version.py",
+    "lib/python3.8/site-packages/pydicom/charset.py",
+    "lib/python3.8/site-packages/pydicom/cli/__init__.py",
+    "lib/python3.8/site-packages/pydicom/cli/codify.py",
+    "lib/python3.8/site-packages/pydicom/cli/main.py",
+    "lib/python3.8/site-packages/pydicom/cli/show.py",
+    "lib/python3.8/site-packages/pydicom/compat.py",
+    "lib/python3.8/site-packages/pydicom/config.py",
+    "lib/python3.8/site-packages/pydicom/data/__init__.py",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/FileInfo.txt",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrArab.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrFren.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrFrenMulti.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrGerm.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrGreek.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrH31.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrH32.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrHbrw.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrI2.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrJapMulti.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrJapMultiExplicitIR6.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrKoreanMulti.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrRuss.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrSQEncoding.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrSQEncoding1.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrX1.dcm",
+    "lib/python3.8/site-packages/pydicom/data/charset_files/chrX2.dcm",
+    "lib/python3.8/site-packages/pydicom/data/data_manager.py",
+    "lib/python3.8/site-packages/pydicom/data/download.py",
+    "lib/python3.8/site-packages/pydicom/data/hashes.json",
+    "lib/python3.8/site-packages/pydicom/data/palettes/README.md",
+    "lib/python3.8/site-packages/pydicom/data/palettes/fall.dcm",
+    "lib/python3.8/site-packages/pydicom/data/palettes/hotiron.dcm",
+    "lib/python3.8/site-packages/pydicom/data/palettes/hotmetalblue.dcm",
+    "lib/python3.8/site-packages/pydicom/data/palettes/pet.dcm",
+    "lib/python3.8/site-packages/pydicom/data/palettes/pet20step.dcm",
+    "lib/python3.8/site-packages/pydicom/data/palettes/spring.dcm",
+    "lib/python3.8/site-packages/pydicom/data/palettes/summer.dcm",
+    "lib/python3.8/site-packages/pydicom/data/palettes/winter.dcm",
+    "lib/python3.8/site-packages/pydicom/data/retry.py",
+    "lib/python3.8/site-packages/pydicom/data/test_files/693_J2KI.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/CT_small.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/ExplVR_BigEnd.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/ExplVR_BigEndNoMeta.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/ExplVR_LitEndNoMeta.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/GDCMJ2K_TextGBR.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/J2K_pixelrep_mismatch.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/JPEG-lossy.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/JPEG2000-embedded-sequence-delimiter.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/JPEG2000.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/JPGExtended.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_small.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_small_RLE.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_small_bigendian.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_small_expb.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_small_implicit.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_small_jp2klossless.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_small_jpeg_ls_lossless.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_small_padded.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/MR_truncated.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/README.txt",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_jpeg_no_color_transform.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_jpeg_no_color_transform_2.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cr.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+n1.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+n2.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+np.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+s2.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+s4.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_gdcm_KY.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_jpeg.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_jpeg_app14_dcmd.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_jpeg_dcmd.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_jpeg_dcmtk.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_jpeg_gdcm.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_jpeg_lossy_gdcm.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_rle.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_rle_16bit.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_rle_16bit_2frame.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_rle_2frame.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_rle_32bit.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_rle_32bit_2frame.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_small_odd.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_small_odd_big_endian.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_rgb_small_odd_jpeg.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/SC_ybr_full_422_uncompressed.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/UN_sequence.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/badVR.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/77654033/CR1/6154",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/77654033/CR2/6247",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/77654033/CR3/6278",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/77654033/CT2/17106",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/77654033/CT2/17136",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/77654033/CT2/17166",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/77654033/CT2/17196",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT2N/6293",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT2N/6924",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/2062",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/2392",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/2693",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/3023",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/3353",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR1/15820",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR1/4919",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR1/5641",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/15970",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/4950",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/4981",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/5011",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/6273",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/6605",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/6935",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4467",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4528",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4558",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4588",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4618",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4648",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4678",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-bigEnd",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-empty.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-implicit",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-nooffset",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-nopatient",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-reordered",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/README.txt",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/DICOMDIR",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000000",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000001",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000002",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000003",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000004",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000005",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000006",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000007",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000008",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000009",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000A",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000B",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000C",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000D",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000E",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000F",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000G",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000H",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000I",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000J",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000K",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000L",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000M",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000N",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000O",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000P",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000Q",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000R",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000S",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000T",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000U",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000V",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000W",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000X",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000Y",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000Z",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000010",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000011",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000012",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000013",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000014",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000015",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000016",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000017",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000018",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000019",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00001A",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00001B",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00001C",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00001D",
+    "lib/python3.8/site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/README",
+    "lib/python3.8/site-packages/pydicom/data/test_files/empty_charset_LEI.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/image_dfl.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/liver_1frame.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/liver_expb_1frame.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/meta_missing_tsyntax.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/nested_priv_SQ.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/no_meta.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/no_meta_group_length.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/priv_SQ.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/reportsi.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/reportsi_with_empty_number_tags.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtdose.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtdose_1frame.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtdose_expb.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtdose_expb_1frame.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtdose_rle.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtdose_rle_1frame.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtplan.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtplan.dump",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtplan_truncated.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtstruct.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/rtstruct.dump",
+    "lib/python3.8/site-packages/pydicom/data/test_files/test-SR.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/test1.json",
+    "lib/python3.8/site-packages/pydicom/data/test_files/test_PN.json",
+    "lib/python3.8/site-packages/pydicom/data/test_files/waveform_ecg.dcm",
+    "lib/python3.8/site-packages/pydicom/data/test_files/zipMR.gz",
+    "lib/python3.8/site-packages/pydicom/data/urls.json",
+    "lib/python3.8/site-packages/pydicom/datadict.py",
+    "lib/python3.8/site-packages/pydicom/dataelem.py",
+    "lib/python3.8/site-packages/pydicom/dataset.py",
+    "lib/python3.8/site-packages/pydicom/dicomdir.py",
+    "lib/python3.8/site-packages/pydicom/dicomio.py",
+    "lib/python3.8/site-packages/pydicom/encaps.py",
+    "lib/python3.8/site-packages/pydicom/encoders/__init__.py",
+    "lib/python3.8/site-packages/pydicom/encoders/base.py",
+    "lib/python3.8/site-packages/pydicom/encoders/gdcm.py",
+    "lib/python3.8/site-packages/pydicom/encoders/native.py",
+    "lib/python3.8/site-packages/pydicom/encoders/pylibjpeg.py",
+    "lib/python3.8/site-packages/pydicom/env_info.py",
+    "lib/python3.8/site-packages/pydicom/errors.py",
+    "lib/python3.8/site-packages/pydicom/filebase.py",
+    "lib/python3.8/site-packages/pydicom/filereader.py",
+    "lib/python3.8/site-packages/pydicom/fileset.py",
+    "lib/python3.8/site-packages/pydicom/fileutil.py",
+    "lib/python3.8/site-packages/pydicom/filewriter.py",
+    "lib/python3.8/site-packages/pydicom/jsonrep.py",
+    "lib/python3.8/site-packages/pydicom/misc.py",
+    "lib/python3.8/site-packages/pydicom/multival.py",
+    "lib/python3.8/site-packages/pydicom/overlay_data_handlers/__init__.py",
+    "lib/python3.8/site-packages/pydicom/overlays/__init__.py",
+    "lib/python3.8/site-packages/pydicom/overlays/numpy_handler.py",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__init__.py",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/gdcm_handler.py",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/jpeg_ls_handler.py",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/numpy_handler.py",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/pillow_handler.py",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/pylibjpeg_handler.py",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/rle_handler.py",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/util.py",
+    "lib/python3.8/site-packages/pydicom/py.typed",
+    "lib/python3.8/site-packages/pydicom/sequence.py",
+    "lib/python3.8/site-packages/pydicom/sr/__init__.py",
+    "lib/python3.8/site-packages/pydicom/sr/_cid_dict.py",
+    "lib/python3.8/site-packages/pydicom/sr/_concepts_dict.py",
+    "lib/python3.8/site-packages/pydicom/sr/_snomed_dict.py",
+    "lib/python3.8/site-packages/pydicom/sr/codedict.py",
+    "lib/python3.8/site-packages/pydicom/sr/coding.py",
+    "lib/python3.8/site-packages/pydicom/tag.py",
+    "lib/python3.8/site-packages/pydicom/tests/__init__.py",
+    "lib/python3.8/site-packages/pydicom/tests/_write_stds.py",
+    "lib/python3.8/site-packages/pydicom/tests/conftest.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_JPEG_LS_transfer_syntax.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_charset.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_cli.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_codes.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_config.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_data_manager.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_dataelem.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_dataset.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_dicomdir.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_dictionary.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_encaps.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_encoders.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_encoders_gdcm.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_encoders_pydicom.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_env_info.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_errors.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_filebase.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_filereader.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_fileset.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_fileutil.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_filewriter.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_gdcm_pixel_data.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_handler_util.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_helpers.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_jpeg_ls_pixel_data.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_json.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_misc.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_multival.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_numpy_pixel_data.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_overlay_np.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_pillow_pixel_data.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_pylibjpeg.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_rawread.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_rle_pixel_data.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_sequence.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_tag.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_uid.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_unicode.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_util.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_valuerep.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_values.py",
+    "lib/python3.8/site-packages/pydicom/tests/test_waveform.py",
+    "lib/python3.8/site-packages/pydicom/uid.py",
+    "lib/python3.8/site-packages/pydicom/util/__init__.py",
+    "lib/python3.8/site-packages/pydicom/util/codify.py",
+    "lib/python3.8/site-packages/pydicom/util/dump.py",
+    "lib/python3.8/site-packages/pydicom/util/fixer.py",
+    "lib/python3.8/site-packages/pydicom/util/hexutil.py",
+    "lib/python3.8/site-packages/pydicom/util/leanread.py",
+    "lib/python3.8/site-packages/pydicom/valuerep.py",
+    "lib/python3.8/site-packages/pydicom/values.py",
+    "lib/python3.8/site-packages/pydicom/waveforms/__init__.py",
+    "lib/python3.8/site-packages/pydicom/waveforms/numpy_handler.py",
+    "lib/python3.8/site-packages/pydicom/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/_dicom_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/_private_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/_storage_sopclass_uids.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/_uid_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/charset.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/cli/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/cli/__pycache__/codify.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/cli/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/cli/__pycache__/show.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/data/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/data/__pycache__/data_manager.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/data/__pycache__/download.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/data/__pycache__/retry.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/datadict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/dataelem.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/dataset.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/dicomdir.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/dicomio.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/encaps.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/encoders/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/encoders/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/encoders/__pycache__/gdcm.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/encoders/__pycache__/native.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/encoders/__pycache__/pylibjpeg.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/env_info.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/filebase.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/filereader.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/fileset.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/fileutil.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/filewriter.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/jsonrep.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/misc.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/multival.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/overlay_data_handlers/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/overlays/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/overlays/__pycache__/numpy_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/gdcm_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/jpeg_ls_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/numpy_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/pillow_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/pylibjpeg_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/rle_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/sequence.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/sr/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/sr/__pycache__/_cid_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/sr/__pycache__/_concepts_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/sr/__pycache__/_snomed_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/sr/__pycache__/codedict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/sr/__pycache__/coding.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/tag.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/_write_stds.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/conftest.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_JPEG_LS_transfer_syntax.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_charset.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_cli.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_codes.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_config.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_data_manager.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_dataelem.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_dataset.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_dicomdir.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_dictionary.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_encaps.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_encoders.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_encoders_gdcm.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_encoders_pydicom.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_env_info.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_filebase.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_filereader.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_fileset.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_fileutil.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_filewriter.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_gdcm_pixel_data.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_handler_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_helpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_jpeg_ls_pixel_data.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_json.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_misc.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_multival.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_numpy_pixel_data.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_overlay_np.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_pillow_pixel_data.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_pylibjpeg.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_rawread.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_rle_pixel_data.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_sequence.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_tag.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_uid.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_unicode.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_valuerep.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_values.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_waveform.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/uid.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/util/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/util/__pycache__/codify.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/util/__pycache__/dump.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/util/__pycache__/fixer.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/util/__pycache__/hexutil.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/util/__pycache__/leanread.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/valuerep.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/__pycache__/values.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/waveforms/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydicom/waveforms/__pycache__/numpy_handler.cpython-38.pyc"
+  ],
+  "fn": "pydicom-2.4.3-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/marcusc/miniforge3/pkgs/pydicom-2.4.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "1cd22376eaadaa907a0468461344b80f",
+  "name": "pydicom",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/marcusc/miniforge3/pkgs/pydicom-2.4.3-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/pydicom",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pydicom_1692139723652/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "2b16d7d5c3420539a8924a8d920014a8bbd35d1f3d465dbbdc61b1d3b244e7f4",
+        "sha256_in_prefix": "dcc25bd1b718979d73506d3f48ce06f6b2056fa45479476a1ee83e980169c29b",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "site-packages/pydicom-2.4.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pydicom-2.4.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "81fde122d7719a3884012e6af6d65caa622dd760730a3be9fc6c94d51b6b8f67",
+        "sha256_in_prefix": "81fde122d7719a3884012e6af6d65caa622dd760730a3be9fc6c94d51b6b8f67",
+        "size_in_bytes": 3196
+      },
+      {
+        "_path": "site-packages/pydicom-2.4.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4230ca447a7b1bd10797a55ae421647b8a5ad3856476b0ae369cfac0fdc737b3",
+        "sha256_in_prefix": "4230ca447a7b1bd10797a55ae421647b8a5ad3856476b0ae369cfac0fdc737b3",
+        "size_in_bytes": 7808
+      },
+      {
+        "_path": "site-packages/pydicom-2.4.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d4c84ddf874e31323e789e0ee0f9cb742818638e2df58e6ba0ec7f9bd12aa079",
+        "sha256_in_prefix": "d4c84ddf874e31323e789e0ee0f9cb742818638e2df58e6ba0ec7f9bd12aa079",
+        "size_in_bytes": 38808
+      },
+      {
+        "_path": "site-packages/pydicom-2.4.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pydicom-2.4.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "sha256_in_prefix": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/pydicom-2.4.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "72ad5a7b95fcffc0b39cfd9c4eab82f496cfb2e9d1ab30ed95d7c75908b7a446",
+        "sha256_in_prefix": "72ad5a7b95fcffc0b39cfd9c4eab82f496cfb2e9d1ab30ed95d7c75908b7a446",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/pydicom-2.4.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4e760d92db0710bdb61a0d5424bc4bfaffa4aceaccbd09340546a9a30f5f73c6",
+        "sha256_in_prefix": "4e760d92db0710bdb61a0d5424bc4bfaffa4aceaccbd09340546a9a30f5f73c6",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "site-packages/pydicom/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a22cabe57e4ce50172296259dcf4cf419609331ab9ed64a623108a753a1eaf32",
+        "sha256_in_prefix": "a22cabe57e4ce50172296259dcf4cf419609331ab9ed64a623108a753a1eaf32",
+        "size_in_bytes": 1577
+      },
+      {
+        "_path": "site-packages/pydicom/_dicom_dict.py",
+        "path_type": "hardlink",
+        "sha256": "b5e703b6ed33a67fb5df7299e72b6acebe5852d9c5c1d936b00c10b9ff7379b7",
+        "sha256_in_prefix": "b5e703b6ed33a67fb5df7299e72b6acebe5852d9c5c1d936b00c10b9ff7379b7",
+        "size_in_bytes": 509435
+      },
+      {
+        "_path": "site-packages/pydicom/_private_dict.py",
+        "path_type": "hardlink",
+        "sha256": "3850858600a6b549a2b6d76a42517352d9c256c22e3264b6c6eff62a22bff7e7",
+        "sha256_in_prefix": "3850858600a6b549a2b6d76a42517352d9c256c22e3264b6c6eff62a22bff7e7",
+        "size_in_bytes": 613172
+      },
+      {
+        "_path": "site-packages/pydicom/_storage_sopclass_uids.py",
+        "path_type": "hardlink",
+        "sha256": "0436f99a7f9bd8998877a37ed2c418cf46c22bbc098ec9758163243cc559c2a4",
+        "sha256_in_prefix": "0436f99a7f9bd8998877a37ed2c418cf46c22bbc098ec9758163243cc559c2a4",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "site-packages/pydicom/_uid_dict.py",
+        "path_type": "hardlink",
+        "sha256": "fd7493293569da3828f3ef9623ae22ce425db643bbcb14e7ca9363ad70224904",
+        "sha256_in_prefix": "fd7493293569da3828f3ef9623ae22ce425db643bbcb14e7ca9363ad70224904",
+        "size_in_bytes": 65890
+      },
+      {
+        "_path": "site-packages/pydicom/_version.py",
+        "path_type": "hardlink",
+        "sha256": "5e2d8971d8ac2946c992a7ad243f7365fe59eb037e6b9f7264a32faa3f200125",
+        "sha256_in_prefix": "5e2d8971d8ac2946c992a7ad243f7365fe59eb037e6b9f7264a32faa3f200125",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "site-packages/pydicom/charset.py",
+        "path_type": "hardlink",
+        "sha256": "4294f26c2bc91185ae5871c7ba5dcbffa9f3223477d2756da2ad54dc8853424d",
+        "sha256_in_prefix": "4294f26c2bc91185ae5871c7ba5dcbffa9f3223477d2756da2ad54dc8853424d",
+        "size_in_bytes": 31107
+      },
+      {
+        "_path": "site-packages/pydicom/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pydicom/cli/codify.py",
+        "path_type": "hardlink",
+        "sha256": "e73b374cc36f5a056d0da4f3b5193b8270195eed4d687c388cf0244c4fc92ba9",
+        "sha256_in_prefix": "e73b374cc36f5a056d0da4f3b5193b8270195eed4d687c388cf0244c4fc92ba9",
+        "size_in_bytes": 1001
+      },
+      {
+        "_path": "site-packages/pydicom/cli/main.py",
+        "path_type": "hardlink",
+        "sha256": "08655e916f90023ac7d26b3bcebeff0be47d08f2c6db619de49e8597dbe2a4e9",
+        "sha256_in_prefix": "08655e916f90023ac7d26b3bcebeff0be47d08f2c6db619de49e8597dbe2a4e9",
+        "size_in_bytes": 7705
+      },
+      {
+        "_path": "site-packages/pydicom/cli/show.py",
+        "path_type": "hardlink",
+        "sha256": "5de2610db721bb4ad5ca7caf598382d010cf3a8f99a6ffe328b347682588fecc",
+        "sha256_in_prefix": "5de2610db721bb4ad5ca7caf598382d010cf3a8f99a6ffe328b347682588fecc",
+        "size_in_bytes": 5323
+      },
+      {
+        "_path": "site-packages/pydicom/compat.py",
+        "path_type": "hardlink",
+        "sha256": "eff41f9c1760dee67fa10dd8daa3b1a6b88ad2c5a44897b015b4a08b8e469d55",
+        "sha256_in_prefix": "eff41f9c1760dee67fa10dd8daa3b1a6b88ad2c5a44897b015b4a08b8e469d55",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "site-packages/pydicom/config.py",
+        "path_type": "hardlink",
+        "sha256": "73330e8f8ee90d8b88085039ebf3e6f371bd2b392ad5f3d111b5d8f24eef8fd0",
+        "sha256_in_prefix": "73330e8f8ee90d8b88085039ebf3e6f371bd2b392ad5f3d111b5d8f24eef8fd0",
+        "size_in_bytes": 18738
+      },
+      {
+        "_path": "site-packages/pydicom/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "db20b1eb5a880b8c65bd761a6eb94dbcecc8d74fd353f297aad2e6d62d42528f",
+        "sha256_in_prefix": "db20b1eb5a880b8c65bd761a6eb94dbcecc8d74fd353f297aad2e6d62d42528f",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/FileInfo.txt",
+        "path_type": "hardlink",
+        "sha256": "f1ba888e57c65758cf5f3a0fc956a0c83ad0935e73878dd3c9114cb5d1646ff3",
+        "sha256_in_prefix": "f1ba888e57c65758cf5f3a0fc956a0c83ad0935e73878dd3c9114cb5d1646ff3",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrArab.dcm",
+        "path_type": "hardlink",
+        "sha256": "7020ecdbb68bdd13264daeb29fabe636a28d79a1a83ecbb65a0d996c68458c1e",
+        "sha256_in_prefix": "7020ecdbb68bdd13264daeb29fabe636a28d79a1a83ecbb65a0d996c68458c1e",
+        "size_in_bytes": 1892
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrFren.dcm",
+        "path_type": "hardlink",
+        "sha256": "8363f3d2e55b448a688ed7863675bf9645e77a919486ddfb8faa12227e28b097",
+        "sha256_in_prefix": "8363f3d2e55b448a688ed7863675bf9645e77a919486ddfb8faa12227e28b097",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrFrenMulti.dcm",
+        "path_type": "hardlink",
+        "sha256": "ea01c20111b638327d6d9c003631a0396167267bfc69c53815f055c76e2dafc1",
+        "sha256_in_prefix": "ea01c20111b638327d6d9c003631a0396167267bfc69c53815f055c76e2dafc1",
+        "size_in_bytes": 1938
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrGerm.dcm",
+        "path_type": "hardlink",
+        "sha256": "49a285554a4ef62ae97c31c1c8c15e9fc3289570a0f56f446e6a652c799dae5d",
+        "sha256_in_prefix": "49a285554a4ef62ae97c31c1c8c15e9fc3289570a0f56f446e6a652c799dae5d",
+        "size_in_bytes": 1894
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrGreek.dcm",
+        "path_type": "hardlink",
+        "sha256": "cdbdf7820642c13c26b49e496d571f390418d3078e75b2c070e5c668861ed49b",
+        "sha256_in_prefix": "cdbdf7820642c13c26b49e496d571f390418d3078e75b2c070e5c668861ed49b",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrH31.dcm",
+        "path_type": "hardlink",
+        "sha256": "37b1165fc2b35cbe12f0b036a439d1c69412adb34ce5a387d23191fc2d285f48",
+        "sha256_in_prefix": "37b1165fc2b35cbe12f0b036a439d1c69412adb34ce5a387d23191fc2d285f48",
+        "size_in_bytes": 1950
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrH32.dcm",
+        "path_type": "hardlink",
+        "sha256": "de42af715ac11d701d493ac34b1cf477d3e1f2d5d05e3441738a68d495f7708f",
+        "sha256_in_prefix": "de42af715ac11d701d493ac34b1cf477d3e1f2d5d05e3441738a68d495f7708f",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrHbrw.dcm",
+        "path_type": "hardlink",
+        "sha256": "5065bb5c8e558ecc85cc48113a1b0bf07701eaf2e9fa1b7b733669c7ad8ef9c4",
+        "sha256_in_prefix": "5065bb5c8e558ecc85cc48113a1b0bf07701eaf2e9fa1b7b733669c7ad8ef9c4",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrI2.dcm",
+        "path_type": "hardlink",
+        "sha256": "1d2ed1aa27c01ca85ed2482d6ffe97249d3f276661fa65b99c1b1103b78aa0cc",
+        "sha256_in_prefix": "1d2ed1aa27c01ca85ed2482d6ffe97249d3f276661fa65b99c1b1103b78aa0cc",
+        "size_in_bytes": 1934
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrJapMulti.dcm",
+        "path_type": "hardlink",
+        "sha256": "9f69e68ba12651b28d0f76047b0f77628e3054cc16461746ad3622fa8bd4a945",
+        "sha256_in_prefix": "9f69e68ba12651b28d0f76047b0f77628e3054cc16461746ad3622fa8bd4a945",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrJapMultiExplicitIR6.dcm",
+        "path_type": "hardlink",
+        "sha256": "bd45c304b43e1f894942c30239f463156e0e63986fb1dad4c2625b59aa32e01f",
+        "sha256_in_prefix": "bd45c304b43e1f894942c30239f463156e0e63986fb1dad4c2625b59aa32e01f",
+        "size_in_bytes": 1940
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrKoreanMulti.dcm",
+        "path_type": "hardlink",
+        "sha256": "f07d6193310e593fd7f8ecf3e301da01c82c47dc22973896f2a671c69d7fdd4d",
+        "sha256_in_prefix": "f07d6193310e593fd7f8ecf3e301da01c82c47dc22973896f2a671c69d7fdd4d",
+        "size_in_bytes": 1898
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrRuss.dcm",
+        "path_type": "hardlink",
+        "sha256": "e82d8856b7d9fb407a80a2824dc7adf8daf7ced265450d698955f754a9af1730",
+        "sha256_in_prefix": "e82d8856b7d9fb407a80a2824dc7adf8daf7ced265450d698955f754a9af1730",
+        "size_in_bytes": 1890
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrSQEncoding.dcm",
+        "path_type": "hardlink",
+        "sha256": "b124a74bcf2f258ee8c99c354208eb7ceb3969e7f2e827d9dd6e41905facaa7e",
+        "sha256_in_prefix": "b124a74bcf2f258ee8c99c354208eb7ceb3969e7f2e827d9dd6e41905facaa7e",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrSQEncoding1.dcm",
+        "path_type": "hardlink",
+        "sha256": "1ee6189b45e1610731762b7a823f3ce329b70f9cda9aad1936972966a8aac661",
+        "sha256_in_prefix": "1ee6189b45e1610731762b7a823f3ce329b70f9cda9aad1936972966a8aac661",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrX1.dcm",
+        "path_type": "hardlink",
+        "sha256": "133232a666587ee884804cb07aaa4becf36f720bc5919a0781732ce691f5dedc",
+        "sha256_in_prefix": "133232a666587ee884804cb07aaa4becf36f720bc5919a0781732ce691f5dedc",
+        "size_in_bytes": 1910
+      },
+      {
+        "_path": "site-packages/pydicom/data/charset_files/chrX2.dcm",
+        "path_type": "hardlink",
+        "sha256": "c626f310e03012138456589f5167547c5bfecf7adef13bb1ed43a21dcb274ee8",
+        "sha256_in_prefix": "c626f310e03012138456589f5167547c5bfecf7adef13bb1ed43a21dcb274ee8",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "site-packages/pydicom/data/data_manager.py",
+        "path_type": "hardlink",
+        "sha256": "105e563bcf7d8fcf7ada5ab8216f168b02e0d2ce49082f2906998bb8232b638c",
+        "sha256_in_prefix": "105e563bcf7d8fcf7ada5ab8216f168b02e0d2ce49082f2906998bb8232b638c",
+        "size_in_bytes": 11895
+      },
+      {
+        "_path": "site-packages/pydicom/data/download.py",
+        "path_type": "hardlink",
+        "sha256": "8a21af2f38ff492e090f8314f4c03a9a6b2a2ad11b059d251fbffac5fe2c460b",
+        "sha256_in_prefix": "8a21af2f38ff492e090f8314f4c03a9a6b2a2ad11b059d251fbffac5fe2c460b",
+        "size_in_bytes": 8205
+      },
+      {
+        "_path": "site-packages/pydicom/data/hashes.json",
+        "path_type": "hardlink",
+        "sha256": "b12f4ef94e59f99637f04569b36d77c68855f40ff3faed5d7bbd1b861d9a7239",
+        "sha256_in_prefix": "b12f4ef94e59f99637f04569b36d77c68855f40ff3faed5d7bbd1b861d9a7239",
+        "size_in_bytes": 6297
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/README.md",
+        "path_type": "hardlink",
+        "sha256": "19bcb301aaa6967bfed0d58fb427f24bbc39b207581adf9fd6ef9774b2235a13",
+        "sha256_in_prefix": "19bcb301aaa6967bfed0d58fb427f24bbc39b207581adf9fd6ef9774b2235a13",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/fall.dcm",
+        "path_type": "hardlink",
+        "sha256": "d36a0a4945c561b19949a6bf99028d40e6b6dbf7d7b07495597cdb92ca02be5f",
+        "sha256_in_prefix": "d36a0a4945c561b19949a6bf99028d40e6b6dbf7d7b07495597cdb92ca02be5f",
+        "size_in_bytes": 4078
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/hotiron.dcm",
+        "path_type": "hardlink",
+        "sha256": "f017db6313ce90b3f02386c82b3fab0a3e89e04988221e76f69a33f1ba084378",
+        "sha256_in_prefix": "f017db6313ce90b3f02386c82b3fab0a3e89e04988221e76f69a33f1ba084378",
+        "size_in_bytes": 4754
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/hotmetalblue.dcm",
+        "path_type": "hardlink",
+        "sha256": "750318823c9b55ee071550afbd43b740c56a80d7fb6cbe10e7c4ac5f2bdb93f2",
+        "sha256_in_prefix": "750318823c9b55ee071550afbd43b740c56a80d7fb6cbe10e7c4ac5f2bdb93f2",
+        "size_in_bytes": 4776
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/pet.dcm",
+        "path_type": "hardlink",
+        "sha256": "b40122bdcf49a539a4cc515f27141c7046dd5c6f0487bddee50dbb2ea5430a03",
+        "sha256_in_prefix": "b40122bdcf49a539a4cc515f27141c7046dd5c6f0487bddee50dbb2ea5430a03",
+        "size_in_bytes": 4732
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/pet20step.dcm",
+        "path_type": "hardlink",
+        "sha256": "3a456bdba3f4a5f507e1be795b149d54c015949ecfdfcc8df7b155751e2601ee",
+        "sha256_in_prefix": "3a456bdba3f4a5f507e1be795b149d54c015949ecfdfcc8df7b155751e2601ee",
+        "size_in_bytes": 4790
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/spring.dcm",
+        "path_type": "hardlink",
+        "sha256": "1503eac7d51e92d81b1e95feb7211efde9e89dcf57f88ba979fb2e34a1004cb0",
+        "sha256_in_prefix": "1503eac7d51e92d81b1e95feb7211efde9e89dcf57f88ba979fb2e34a1004cb0",
+        "size_in_bytes": 4104
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/summer.dcm",
+        "path_type": "hardlink",
+        "sha256": "89be2cc1cf93f1a18d2ee79d33def61654dcbc6c81d2d7b6fcd7548cf0fed1e3",
+        "sha256_in_prefix": "89be2cc1cf93f1a18d2ee79d33def61654dcbc6c81d2d7b6fcd7548cf0fed1e3",
+        "size_in_bytes": 4100
+      },
+      {
+        "_path": "site-packages/pydicom/data/palettes/winter.dcm",
+        "path_type": "hardlink",
+        "sha256": "3044bed8d1c0c481c5c246c382c257023f9d12dcd466ceae5d862345fdcdac5e",
+        "sha256_in_prefix": "3044bed8d1c0c481c5c246c382c257023f9d12dcd466ceae5d862345fdcdac5e",
+        "size_in_bytes": 4112
+      },
+      {
+        "_path": "site-packages/pydicom/data/retry.py",
+        "path_type": "hardlink",
+        "sha256": "ba81fa99309070551026e510db2f7aba92ff876455663eb6ad01311eafe62739",
+        "sha256_in_prefix": "ba81fa99309070551026e510db2f7aba92ff876455663eb6ad01311eafe62739",
+        "size_in_bytes": 2057
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/693_J2KI.dcm",
+        "path_type": "hardlink",
+        "sha256": "8d5d503fd46b9a59c628762d71d7391ea1a2a5fd8d339ac82ef9e281a15ef65f",
+        "sha256_in_prefix": "8d5d503fd46b9a59c628762d71d7391ea1a2a5fd8d339ac82ef9e281a15ef65f",
+        "size_in_bytes": 3590
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/CT_small.dcm",
+        "path_type": "hardlink",
+        "sha256": "3dd31e5cc835b3f2cdd46c9da1982f59251e78518fefa8163d914631c66437d6",
+        "sha256_in_prefix": "3dd31e5cc835b3f2cdd46c9da1982f59251e78518fefa8163d914631c66437d6",
+        "size_in_bytes": 39206
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/ExplVR_BigEnd.dcm",
+        "path_type": "hardlink",
+        "sha256": "42eb61ea5650f1064e52d48019cd87b118e52cf4dfbc8fa57427ed2ed4c036ea",
+        "sha256_in_prefix": "42eb61ea5650f1064e52d48019cd87b118e52cf4dfbc8fa57427ed2ed4c036ea",
+        "size_in_bytes": 15412
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/ExplVR_BigEndNoMeta.dcm",
+        "path_type": "hardlink",
+        "sha256": "a56be8c8c52f0d1cf55d7c2ced6abc6f22b799cbf556b84b856055a7a7565949",
+        "sha256_in_prefix": "a56be8c8c52f0d1cf55d7c2ced6abc6f22b799cbf556b84b856055a7a7565949",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/ExplVR_LitEndNoMeta.dcm",
+        "path_type": "hardlink",
+        "sha256": "008e9302975d34899d89b4e3f044f8637b16acde25242eb0b36a1ffc034b9b42",
+        "sha256_in_prefix": "008e9302975d34899d89b4e3f044f8637b16acde25242eb0b36a1ffc034b9b42",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/GDCMJ2K_TextGBR.dcm",
+        "path_type": "hardlink",
+        "sha256": "69f5fb9e92e57a0b2ae176c891e809c3349d5af2d71f5553231847e6343439db",
+        "sha256_in_prefix": "69f5fb9e92e57a0b2ae176c891e809c3349d5af2d71f5553231847e6343439db",
+        "size_in_bytes": 30706
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/J2K_pixelrep_mismatch.dcm",
+        "path_type": "hardlink",
+        "sha256": "2df92c523d36639e4d88f892f47e4f6616c48ab017a445a6241ffe38b2d07bbf",
+        "sha256_in_prefix": "2df92c523d36639e4d88f892f47e4f6616c48ab017a445a6241ffe38b2d07bbf",
+        "size_in_bytes": 138518
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/JPEG-lossy.dcm",
+        "path_type": "hardlink",
+        "sha256": "c425608e2fcda8332c75d33f890bfe3bae32700608b719046b3d9e789374c292",
+        "sha256_in_prefix": "c425608e2fcda8332c75d33f890bfe3bae32700608b719046b3d9e789374c292",
+        "size_in_bytes": 9844
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/JPEG2000-embedded-sequence-delimiter.dcm",
+        "path_type": "hardlink",
+        "sha256": "b1fd9301d9d0cbe03ee35843b1c192d040eee7dc43bf97bb1e96ba3ad602d87f",
+        "sha256_in_prefix": "b1fd9301d9d0cbe03ee35843b1c192d040eee7dc43bf97bb1e96ba3ad602d87f",
+        "size_in_bytes": 3308
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/JPEG2000.dcm",
+        "path_type": "hardlink",
+        "sha256": "5be539024e6803029a7b73c0f8e72e88d032e3a0bc05922c0c047344780aa8e1",
+        "sha256_in_prefix": "5be539024e6803029a7b73c0f8e72e88d032e3a0bc05922c0c047344780aa8e1",
+        "size_in_bytes": 3308
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/JPGExtended.dcm",
+        "path_type": "hardlink",
+        "sha256": "13d217617fcadc22c069ec7b18e94731d346c5d83703bc152f692877cab5085f",
+        "sha256_in_prefix": "13d217617fcadc22c069ec7b18e94731d346c5d83703bc152f692877cab5085f",
+        "size_in_bytes": 9844
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_small.dcm",
+        "path_type": "hardlink",
+        "sha256": "3f27d1c22f1a66e80d7bb7c911e8610fd0bb70325a76746a7adb1c0ddefcf2bb",
+        "sha256_in_prefix": "3f27d1c22f1a66e80d7bb7c911e8610fd0bb70325a76746a7adb1c0ddefcf2bb",
+        "size_in_bytes": 9830
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_small_RLE.dcm",
+        "path_type": "hardlink",
+        "sha256": "2e5cb60878dc0acc494298ccdad28fce2cf14c51096e5d8cedab40248ea02e6c",
+        "sha256_in_prefix": "2e5cb60878dc0acc494298ccdad28fce2cf14c51096e5d8cedab40248ea02e6c",
+        "size_in_bytes": 7790
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_small_bigendian.dcm",
+        "path_type": "hardlink",
+        "sha256": "3e4c8c9fe70de4f3be149bbd673fa56f211c8e8e2ff9bac63f70f9dc31b5d108",
+        "sha256_in_prefix": "3e4c8c9fe70de4f3be149bbd673fa56f211c8e8e2ff9bac63f70f9dc31b5d108",
+        "size_in_bytes": 9708
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_small_expb.dcm",
+        "path_type": "hardlink",
+        "sha256": "8b3846771e1dbb4b36daf3eabbd331090a4735d2930174540458c51ec0808aeb",
+        "sha256_in_prefix": "8b3846771e1dbb4b36daf3eabbd331090a4735d2930174540458c51ec0808aeb",
+        "size_in_bytes": 9846
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_small_implicit.dcm",
+        "path_type": "hardlink",
+        "sha256": "6077442c42a56fc7fcc7db8411a657dded9fc109e6d3275765c4de358292b299",
+        "sha256_in_prefix": "6077442c42a56fc7fcc7db8411a657dded9fc109e6d3275765c4de358292b299",
+        "size_in_bytes": 9702
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_small_jp2klossless.dcm",
+        "path_type": "hardlink",
+        "sha256": "4c0049e0355b560c8c846538d827afbdae5311b20fc5e5a93a3892e109bb140d",
+        "sha256_in_prefix": "4c0049e0355b560c8c846538d827afbdae5311b20fc5e5a93a3892e109bb140d",
+        "size_in_bytes": 6008
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_small_jpeg_ls_lossless.dcm",
+        "path_type": "hardlink",
+        "sha256": "b2b69dd2ae854bf7dfada6745709cd5d8a4573ea12387adbbdc56e8be6056206",
+        "sha256_in_prefix": "b2b69dd2ae854bf7dfada6745709cd5d8a4573ea12387adbbdc56e8be6056206",
+        "size_in_bytes": 6124
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_small_padded.dcm",
+        "path_type": "hardlink",
+        "sha256": "b46e32d8430f1e86e7fc03b9542e06ffc40a591890a3acc644c301d6a2f0e57f",
+        "sha256_in_prefix": "b46e32d8430f1e86e7fc03b9542e06ffc40a591890a3acc644c301d6a2f0e57f",
+        "size_in_bytes": 9958
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/MR_truncated.dcm",
+        "path_type": "hardlink",
+        "sha256": "a3f26c279dd214951d32a1548362df3c93f9730135fa893a01552c0e632f587f",
+        "sha256_in_prefix": "a3f26c279dd214951d32a1548362df3c93f9730135fa893a01552c0e632f587f",
+        "size_in_bytes": 9630
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/README.txt",
+        "path_type": "hardlink",
+        "sha256": "4d2b4075f833e5939998528f4c9e2d42db30df279d789191569f7bc0c298f1d7",
+        "sha256_in_prefix": "4d2b4075f833e5939998528f4c9e2d42db30df279d789191569f7bc0c298f1d7",
+        "size_in_bytes": 15439
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_jpeg_no_color_transform.dcm",
+        "path_type": "hardlink",
+        "sha256": "0c9a6d9fea4e4bef22daedd3ab1bfbabebeec18c3296c7e0c8ec3f6a9f42474b",
+        "sha256_in_prefix": "0c9a6d9fea4e4bef22daedd3ab1bfbabebeec18c3296c7e0c8ec3f6a9f42474b",
+        "size_in_bytes": 4316
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_jpeg_no_color_transform_2.dcm",
+        "path_type": "hardlink",
+        "sha256": "17f1a680703d86dc337ededf4412157163b041aa6f9f55b77c715d1b4f494344",
+        "sha256_in_prefix": "17f1a680703d86dc337ededf4412157163b041aa6f9f55b77c715d1b4f494344",
+        "size_in_bytes": 4310
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cr.dcm",
+        "path_type": "hardlink",
+        "sha256": "d16092b526e46328897a18cb0adc5c582bbfe953d6dcb2d12bb9270d398f6c41",
+        "sha256_in_prefix": "d16092b526e46328897a18cb0adc5c582bbfe953d6dcb2d12bb9270d398f6c41",
+        "size_in_bytes": 3626
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+n1.dcm",
+        "path_type": "hardlink",
+        "sha256": "aedfe7e31480e75bb6a64cf96b6a1048a8b24e9135954872fba4a28b60941a60",
+        "sha256_in_prefix": "aedfe7e31480e75bb6a64cf96b6a1048a8b24e9135954872fba4a28b60941a60",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+n2.dcm",
+        "path_type": "hardlink",
+        "sha256": "d5a1d71257e2763c63371ab74acaece759696850077a88bcf45e97e0a84f7065",
+        "sha256_in_prefix": "d5a1d71257e2763c63371ab74acaece759696850077a88bcf45e97e0a84f7065",
+        "size_in_bytes": 3090
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+np.dcm",
+        "path_type": "hardlink",
+        "sha256": "5467c2e97efcae6b462f59fcf1d626f4f1ac99c7ea83c2596ce6e7aaf2083ac6",
+        "sha256_in_prefix": "5467c2e97efcae6b462f59fcf1d626f4f1ac99c7ea83c2596ce6e7aaf2083ac6",
+        "size_in_bytes": 3140
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+s2.dcm",
+        "path_type": "hardlink",
+        "sha256": "44d80da71ae3be6048ed7333a1b6f4c1098be2310ca4981f6870f0fed2fe74ed",
+        "sha256_in_prefix": "44d80da71ae3be6048ed7333a1b6f4c1098be2310ca4981f6870f0fed2fe74ed",
+        "size_in_bytes": 3094
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_dcmtk_+eb+cy+s4.dcm",
+        "path_type": "hardlink",
+        "sha256": "f2ed4012809e6d32bb552638221b440808b263d98f51515e6816bad7fcd9fd7b",
+        "sha256_in_prefix": "f2ed4012809e6d32bb552638221b440808b263d98f51515e6816bad7fcd9fd7b",
+        "size_in_bytes": 3420
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_gdcm_KY.dcm",
+        "path_type": "hardlink",
+        "sha256": "bd0fdd97841431dd8e3a76a4842cf6d378285254a273f7884c0a7a8ddb9622d8",
+        "sha256_in_prefix": "bd0fdd97841431dd8e3a76a4842cf6d378285254a273f7884c0a7a8ddb9622d8",
+        "size_in_bytes": 2998
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_jpeg.dcm",
+        "path_type": "hardlink",
+        "sha256": "868ec7a87827844f66be5fd25c01dc76d3a87dd72b69e06c4651c28aac9ade5f",
+        "sha256_in_prefix": "868ec7a87827844f66be5fd25c01dc76d3a87dd72b69e06c4651c28aac9ade5f",
+        "size_in_bytes": 4464
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_jpeg_app14_dcmd.dcm",
+        "path_type": "hardlink",
+        "sha256": "17f1a680703d86dc337ededf4412157163b041aa6f9f55b77c715d1b4f494344",
+        "sha256_in_prefix": "17f1a680703d86dc337ededf4412157163b041aa6f9f55b77c715d1b4f494344",
+        "size_in_bytes": 4310
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_jpeg_dcmd.dcm",
+        "path_type": "hardlink",
+        "sha256": "1d22b5d7bc796dedc78624f724121afd7773f709209ee16a72d5896afc21d475",
+        "sha256_in_prefix": "1d22b5d7bc796dedc78624f724121afd7773f709209ee16a72d5896afc21d475",
+        "size_in_bytes": 197506
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_jpeg_dcmtk.dcm",
+        "path_type": "hardlink",
+        "sha256": "6548a45a0800626cf70a59766146ff3b790a393ee0c9fca359f92c70f370b382",
+        "sha256_in_prefix": "6548a45a0800626cf70a59766146ff3b790a393ee0c9fca359f92c70f370b382",
+        "size_in_bytes": 3424
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_jpeg_gdcm.dcm",
+        "path_type": "hardlink",
+        "sha256": "a492ed4a120c51a076126a6021e8cab1acb0172da3d42c62843b2a34a8ddd252",
+        "sha256_in_prefix": "a492ed4a120c51a076126a6021e8cab1acb0172da3d42c62843b2a34a8ddd252",
+        "size_in_bytes": 5204
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_jpeg_lossy_gdcm.dcm",
+        "path_type": "hardlink",
+        "sha256": "fb9f1a7dfbca18d3af666ef4a8d15e2d81e75745b2e118e3c590ff90de188d0b",
+        "sha256_in_prefix": "fb9f1a7dfbca18d3af666ef4a8d15e2d81e75745b2e118e3c590ff90de188d0b",
+        "size_in_bytes": 5042
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_rle.dcm",
+        "path_type": "hardlink",
+        "sha256": "3f98ee352e75b10ccd6d279ca30b0cb1e363a0c9dde318803f0ec660111327d6",
+        "sha256_in_prefix": "3f98ee352e75b10ccd6d279ca30b0cb1e363a0c9dde318803f0ec660111327d6",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_rle_16bit.dcm",
+        "path_type": "hardlink",
+        "sha256": "86504bea4a8cea36ef4f65e687495cea800e7012546a3202a7944b4f06b376b5",
+        "sha256_in_prefix": "86504bea4a8cea36ef4f65e687495cea800e7012546a3202a7944b4f06b376b5",
+        "size_in_bytes": 2606
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_rle_16bit_2frame.dcm",
+        "path_type": "hardlink",
+        "sha256": "d71390a0ad9c66017271d4dc16c3a45fc2ad4808a5a8efdf5badf01274dcf602",
+        "sha256_in_prefix": "d71390a0ad9c66017271d4dc16c3a45fc2ad4808a5a8efdf5badf01274dcf602",
+        "size_in_bytes": 3896
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_rle_2frame.dcm",
+        "path_type": "hardlink",
+        "sha256": "cc9cd098ab099b5f7a18c4599f2858d2f3f3471590ff8a14d4cf7c834692d9f0",
+        "sha256_in_prefix": "cc9cd098ab099b5f7a18c4599f2858d2f3f3471590ff8a14d4cf7c834692d9f0",
+        "size_in_bytes": 2696
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_rle_32bit.dcm",
+        "path_type": "hardlink",
+        "sha256": "222c7060be1697a24e6659bd97ef17fe9c8596ee41bba2a89768854eec00e383",
+        "sha256_in_prefix": "222c7060be1697a24e6659bd97ef17fe9c8596ee41bba2a89768854eec00e383",
+        "size_in_bytes": 3760
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_rle_32bit_2frame.dcm",
+        "path_type": "hardlink",
+        "sha256": "5c9aa606982eadb1d8aa445fbe87318ad2fa984615e14d9c2c46bd4497cdf2c3",
+        "sha256_in_prefix": "5c9aa606982eadb1d8aa445fbe87318ad2fa984615e14d9c2c46bd4497cdf2c3",
+        "size_in_bytes": 6246
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_small_odd.dcm",
+        "path_type": "hardlink",
+        "sha256": "4aca361ab330f57f60e6b1e3b31dcd834a512bee8a4246bbe1d151011c47e031",
+        "sha256_in_prefix": "4aca361ab330f57f60e6b1e3b31dcd834a512bee8a4246bbe1d151011c47e031",
+        "size_in_bytes": 1444
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_small_odd_big_endian.dcm",
+        "path_type": "hardlink",
+        "sha256": "f78881064e2ba75d0a5139bbb1495c12b143307c4b8706cde5bc20229c1d3611",
+        "sha256_in_prefix": "f78881064e2ba75d0a5139bbb1495c12b143307c4b8706cde5bc20229c1d3611",
+        "size_in_bytes": 1444
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_rgb_small_odd_jpeg.dcm",
+        "path_type": "hardlink",
+        "sha256": "ffb5219ca45a2b492ce5e5a6fc7a5f5ad5a667716a2e5b859eba323376adf439",
+        "sha256_in_prefix": "ffb5219ca45a2b492ce5e5a6fc7a5f5ad5a667716a2e5b859eba323376adf439",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/SC_ybr_full_422_uncompressed.dcm",
+        "path_type": "hardlink",
+        "sha256": "08f6f4935ae225282d8481f297d37b1cf33be8c3d99028f310a9a3f9e8aaf284",
+        "sha256_in_prefix": "08f6f4935ae225282d8481f297d37b1cf33be8c3d99028f310a9a3f9e8aaf284",
+        "size_in_bytes": 21686
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/UN_sequence.dcm",
+        "path_type": "hardlink",
+        "sha256": "09f033e0d40a18c4ade0b08b8d318ab6deb684a84f503d4ec4f00908883dd431",
+        "sha256_in_prefix": "09f033e0d40a18c4ade0b08b8d318ab6deb684a84f503d4ec4f00908883dd431",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/badVR.dcm",
+        "path_type": "hardlink",
+        "sha256": "d12583df0cf66146256238b4cada266956a317c0546c7516cb36f56982ce85b2",
+        "sha256_in_prefix": "d12583df0cf66146256238b4cada266956a317c0546c7516cb36f56982ce85b2",
+        "size_in_bytes": 7618
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/77654033/CR1/6154",
+        "path_type": "hardlink",
+        "sha256": "aa4e9ecd9af652e5e17e4452527f079b8e05c776c580b818dc099082713bf750",
+        "sha256_in_prefix": "aa4e9ecd9af652e5e17e4452527f079b8e05c776c580b818dc099082713bf750",
+        "size_in_bytes": 2300
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/77654033/CR2/6247",
+        "path_type": "hardlink",
+        "sha256": "eaef958bbd3c38298f34930cf0013c0f5079cc052dcbe82ef26f14f8b113ba69",
+        "sha256_in_prefix": "eaef958bbd3c38298f34930cf0013c0f5079cc052dcbe82ef26f14f8b113ba69",
+        "size_in_bytes": 2298
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/77654033/CR3/6278",
+        "path_type": "hardlink",
+        "sha256": "c0447f73d8c0d72b58a83b6192cb0f81f8cf80cc3a1571d02ff8f970559cd9ac",
+        "sha256_in_prefix": "c0447f73d8c0d72b58a83b6192cb0f81f8cf80cc3a1571d02ff8f970559cd9ac",
+        "size_in_bytes": 2298
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/77654033/CT2/17106",
+        "path_type": "hardlink",
+        "sha256": "678df720411e86df67031c28e16192cd31e2062a3f090d657b9f16ce86db3f1d",
+        "sha256_in_prefix": "678df720411e86df67031c28e16192cd31e2062a3f090d657b9f16ce86db3f1d",
+        "size_in_bytes": 3810
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/77654033/CT2/17136",
+        "path_type": "hardlink",
+        "sha256": "5b2d0734bfd387e93aea75cf5cdb73a5670cf5914937de636ff69ef5dc720573",
+        "sha256_in_prefix": "5b2d0734bfd387e93aea75cf5cdb73a5670cf5914937de636ff69ef5dc720573",
+        "size_in_bytes": 3812
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/77654033/CT2/17166",
+        "path_type": "hardlink",
+        "sha256": "049b221c9b2ee9a4bdd843dddf561dce1db9ad1924f1b83d87bc3c6e74cc9ab7",
+        "sha256_in_prefix": "049b221c9b2ee9a4bdd843dddf561dce1db9ad1924f1b83d87bc3c6e74cc9ab7",
+        "size_in_bytes": 3812
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/77654033/CT2/17196",
+        "path_type": "hardlink",
+        "sha256": "e4796e51480a8c73ed717c3300d7384ec92d63e6322edd080d33665ab37365f0",
+        "sha256_in_prefix": "e4796e51480a8c73ed717c3300d7384ec92d63e6322edd080d33665ab37365f0",
+        "size_in_bytes": 3812
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT2N/6293",
+        "path_type": "hardlink",
+        "sha256": "de2970da0589ca948fba863bf0e93f4c18a1695bd3ec2fe8fa73905b53ac5e67",
+        "sha256_in_prefix": "de2970da0589ca948fba863bf0e93f4c18a1695bd3ec2fe8fa73905b53ac5e67",
+        "size_in_bytes": 3920
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT2N/6924",
+        "path_type": "hardlink",
+        "sha256": "1dc34028e07707750d1c19dc17b9497f44591580827cc7adf2b8c679f5f9f3b1",
+        "sha256_in_prefix": "1dc34028e07707750d1c19dc17b9497f44591580827cc7adf2b8c679f5f9f3b1",
+        "size_in_bytes": 3908
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/2062",
+        "path_type": "hardlink",
+        "sha256": "27f8126485634a817f0941cc727094e8cfacb18341fbc317d175ff373804118b",
+        "sha256_in_prefix": "27f8126485634a817f0941cc727094e8cfacb18341fbc317d175ff373804118b",
+        "size_in_bytes": 3936
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/2392",
+        "path_type": "hardlink",
+        "sha256": "02b0af20eeae95f6d42554c53a630babaa5ed2519657208137d3c7418b6acb81",
+        "sha256_in_prefix": "02b0af20eeae95f6d42554c53a630babaa5ed2519657208137d3c7418b6acb81",
+        "size_in_bytes": 3936
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/2693",
+        "path_type": "hardlink",
+        "sha256": "6020fdffd513017e7b2d5dc52435b2bbf27209aabee183a30207a149dccecb2e",
+        "sha256_in_prefix": "6020fdffd513017e7b2d5dc52435b2bbf27209aabee183a30207a149dccecb2e",
+        "size_in_bytes": 3936
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/3023",
+        "path_type": "hardlink",
+        "sha256": "4f7f4f2b3c79acdd5e0fc23fdd9f6bae6e6da9dccfadd1f9147b7bff53756653",
+        "sha256_in_prefix": "4f7f4f2b3c79acdd5e0fc23fdd9f6bae6e6da9dccfadd1f9147b7bff53756653",
+        "size_in_bytes": 3936
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892001/CT5N/3353",
+        "path_type": "hardlink",
+        "sha256": "5eaa662118b8d87601a14231893cb7ecf1737a434c95120cfb4076cfce667b18",
+        "sha256_in_prefix": "5eaa662118b8d87601a14231893cb7ecf1737a434c95120cfb4076cfce667b18",
+        "size_in_bytes": 3938
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR1/15820",
+        "path_type": "hardlink",
+        "sha256": "619698c0a15f9963d0c4d271f6d11ae685a83ec1eb7d06547a16e48abbc70821",
+        "sha256_in_prefix": "619698c0a15f9963d0c4d271f6d11ae685a83ec1eb7d06547a16e48abbc70821",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR1/4919",
+        "path_type": "hardlink",
+        "sha256": "1a0fc2ec617623aeeccf4492bc605ace4efb33cebce7fe4dd54bce472b1c8635",
+        "sha256_in_prefix": "1a0fc2ec617623aeeccf4492bc605ace4efb33cebce7fe4dd54bce472b1c8635",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR1/5641",
+        "path_type": "hardlink",
+        "sha256": "fb809e867ae98a1c995d41f0d458fb7aa2cf117b8b7331559bd0134653c984e8",
+        "sha256_in_prefix": "fb809e867ae98a1c995d41f0d458fb7aa2cf117b8b7331559bd0134653c984e8",
+        "size_in_bytes": 2330
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/15970",
+        "path_type": "hardlink",
+        "sha256": "9e0a67482a96aa4b864beb5cb805141e80f564cb31691b80b2804b9aca792ef9",
+        "sha256_in_prefix": "9e0a67482a96aa4b864beb5cb805141e80f564cb31691b80b2804b9aca792ef9",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/4950",
+        "path_type": "hardlink",
+        "sha256": "7b4a4fa8f14f54161da62b31376b6c7bf2722b3be274d7127f77c6021d8461ea",
+        "sha256_in_prefix": "7b4a4fa8f14f54161da62b31376b6c7bf2722b3be274d7127f77c6021d8461ea",
+        "size_in_bytes": 2356
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/4981",
+        "path_type": "hardlink",
+        "sha256": "014452406b454e77a337881baa5ed216ccf414b67bc95738f87cd749218014b5",
+        "sha256_in_prefix": "014452406b454e77a337881baa5ed216ccf414b67bc95738f87cd749218014b5",
+        "size_in_bytes": 2354
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/5011",
+        "path_type": "hardlink",
+        "sha256": "b4a40fd746873b9fa6308412cc5e7dbb81c73738132c1847c450c7cd1c1c7f7c",
+        "sha256_in_prefix": "b4a40fd746873b9fa6308412cc5e7dbb81c73738132c1847c450c7cd1c1c7f7c",
+        "size_in_bytes": 2354
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/6273",
+        "path_type": "hardlink",
+        "sha256": "8af490bd29676bf011b3b3cef8c83cb91cd28e927fc2b3b109fd2bf8ecd94510",
+        "sha256_in_prefix": "8af490bd29676bf011b3b3cef8c83cb91cd28e927fc2b3b109fd2bf8ecd94510",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/6605",
+        "path_type": "hardlink",
+        "sha256": "4ddd5c3f8901bd960d202472ab31bc8b04394adf0556461ed0edad73ee12f7c4",
+        "sha256_in_prefix": "4ddd5c3f8901bd960d202472ab31bc8b04394adf0556461ed0edad73ee12f7c4",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR2/6935",
+        "path_type": "hardlink",
+        "sha256": "4a9438a4e630b004367b62aefad9b060a3b1f72a2d66f48e911611e0158ec271",
+        "sha256_in_prefix": "4a9438a4e630b004367b62aefad9b060a3b1f72a2d66f48e911611e0158ec271",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4467",
+        "path_type": "hardlink",
+        "sha256": "3181382d6088f51e8e71ee8baa689511dff00b9f0e67993ae1fafdf282011fb5",
+        "sha256_in_prefix": "3181382d6088f51e8e71ee8baa689511dff00b9f0e67993ae1fafdf282011fb5",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4528",
+        "path_type": "hardlink",
+        "sha256": "6374a59a71999669091ef21313cc54a115868076f6c36697f6ddf2f808f82981",
+        "sha256_in_prefix": "6374a59a71999669091ef21313cc54a115868076f6c36697f6ddf2f808f82981",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4558",
+        "path_type": "hardlink",
+        "sha256": "f66d562922b918c91313e615c8b4ed1b5f956bf11aec2721fb54aef9915fffad",
+        "sha256_in_prefix": "f66d562922b918c91313e615c8b4ed1b5f956bf11aec2721fb54aef9915fffad",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4588",
+        "path_type": "hardlink",
+        "sha256": "1fae746c1218cc8c7c2b14344147048d7b4631b63632b07608eec393e568fac0",
+        "sha256_in_prefix": "1fae746c1218cc8c7c2b14344147048d7b4631b63632b07608eec393e568fac0",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4618",
+        "path_type": "hardlink",
+        "sha256": "832d42b0736191fc52ae3ca0838849c06e4456611d84b19c4c92e3e271b04086",
+        "sha256_in_prefix": "832d42b0736191fc52ae3ca0838849c06e4456611d84b19c4c92e3e271b04086",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4648",
+        "path_type": "hardlink",
+        "sha256": "f019089942455d1f316a11d0c9c454c84adc1c041847d3b9ff3f670b21e5afff",
+        "sha256_in_prefix": "f019089942455d1f316a11d0c9c454c84adc1c041847d3b9ff3f670b21e5afff",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/98892003/MR700/4678",
+        "path_type": "hardlink",
+        "sha256": "3749d65d14223185c3105849588f98ad2a962aab1b142488b20e7d451da85ee6",
+        "sha256_in_prefix": "3749d65d14223185c3105849588f98ad2a962aab1b142488b20e7d451da85ee6",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR",
+        "path_type": "hardlink",
+        "sha256": "b9bf631bb20f9276118bafab094291bae3721bccd25bf4bef18474aae5d60498",
+        "sha256_in_prefix": "b9bf631bb20f9276118bafab094291bae3721bccd25bf4bef18474aae5d60498",
+        "size_in_bytes": 11116
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-bigEnd",
+        "path_type": "hardlink",
+        "sha256": "0197125b6b2fed7b44d1cfc4607388dddc70ba54b4b278a672f63d8313f2d83c",
+        "sha256_in_prefix": "0197125b6b2fed7b44d1cfc4607388dddc70ba54b4b278a672f63d8313f2d83c",
+        "size_in_bytes": 11116
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-empty.dcm",
+        "path_type": "hardlink",
+        "sha256": "0503116fcd14d670eeec037f288d52d28c6a1f0c94ae6cdd4ac6d80db7233613",
+        "sha256_in_prefix": "0503116fcd14d670eeec037f288d52d28c6a1f0c94ae6cdd4ac6d80db7233613",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-implicit",
+        "path_type": "hardlink",
+        "sha256": "0023bc2242ccd127fdddc399f907109643660b6c4c2d71fd5f5613ce65ad2a94",
+        "sha256_in_prefix": "0023bc2242ccd127fdddc399f907109643660b6c4c2d71fd5f5613ce65ad2a94",
+        "size_in_bytes": 11110
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-nooffset",
+        "path_type": "hardlink",
+        "sha256": "2a5505656d14aca29a819083b183b79ea603de20aa85ab00534f8fb39fb88377",
+        "sha256_in_prefix": "2a5505656d14aca29a819083b183b79ea603de20aa85ab00534f8fb39fb88377",
+        "size_in_bytes": 11092
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-nopatient",
+        "path_type": "hardlink",
+        "sha256": "35a599163cef54700330e5dc231bd105d2d15d59dc7e65d73a8683a8a7af90b4",
+        "sha256_in_prefix": "35a599163cef54700330e5dc231bd105d2d15d59dc7e65d73a8683a8a7af90b4",
+        "size_in_bytes": 11116
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/DICOMDIR-reordered",
+        "path_type": "hardlink",
+        "sha256": "6a857fcf84ecc5279f5616a0339d9939c622fd14d057efff2c0747e71de93c7b",
+        "sha256_in_prefix": "6a857fcf84ecc5279f5616a0339d9939c622fd14d057efff2c0747e71de93c7b",
+        "size_in_bytes": 11116
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/README.txt",
+        "path_type": "hardlink",
+        "sha256": "abbe19c8aa04fc767d72e2b59948b383eb602fe6440e74397e9e4a9312c5ccfd",
+        "sha256_in_prefix": "abbe19c8aa04fc767d72e2b59948b383eb602fe6440e74397e9e4a9312c5ccfd",
+        "size_in_bytes": 719
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/DICOMDIR",
+        "path_type": "hardlink",
+        "sha256": "620105133bcfa13967781dd3e69cea61a1a5a7b24116360a1d50e804154bbc54",
+        "sha256_in_prefix": "620105133bcfa13967781dd3e69cea61a1a5a7b24116360a1d50e804154bbc54",
+        "size_in_bytes": 13066
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000000",
+        "path_type": "hardlink",
+        "sha256": "ccf2f026bb9e739c33c775fa12bdfc079cbfc9d24c4597ed5decb8797943db53",
+        "sha256_in_prefix": "ccf2f026bb9e739c33c775fa12bdfc079cbfc9d24c4597ed5decb8797943db53",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000001",
+        "path_type": "hardlink",
+        "sha256": "2476d1b0eae0e7ca8055157b4ccdc4a092eb25acff1b42e1bf081a3951c8427a",
+        "sha256_in_prefix": "2476d1b0eae0e7ca8055157b4ccdc4a092eb25acff1b42e1bf081a3951c8427a",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000002",
+        "path_type": "hardlink",
+        "sha256": "d4d7b5564fd4952a2c49e23ae66941c42ede83985279c895acacfb8f1f9a14ff",
+        "sha256_in_prefix": "d4d7b5564fd4952a2c49e23ae66941c42ede83985279c895acacfb8f1f9a14ff",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000003",
+        "path_type": "hardlink",
+        "sha256": "2f968413b777f607dba5cbf22119060f71fc9be16138ae34679f6b6c0b85c7be",
+        "sha256_in_prefix": "2f968413b777f607dba5cbf22119060f71fc9be16138ae34679f6b6c0b85c7be",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000004",
+        "path_type": "hardlink",
+        "sha256": "277d806ec86873f7b103c5155e106da549a87af81a229988ee744de780ebffc9",
+        "sha256_in_prefix": "277d806ec86873f7b103c5155e106da549a87af81a229988ee744de780ebffc9",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000005",
+        "path_type": "hardlink",
+        "sha256": "2002a439290c5890a569d08647784c08441e29084143fa4aae07033cb749f4bb",
+        "sha256_in_prefix": "2002a439290c5890a569d08647784c08441e29084143fa4aae07033cb749f4bb",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000006",
+        "path_type": "hardlink",
+        "sha256": "5e1c9699be06fc21c64b2e954059d2f69d49e5637f19c40b9f204e1bc581e63c",
+        "sha256_in_prefix": "5e1c9699be06fc21c64b2e954059d2f69d49e5637f19c40b9f204e1bc581e63c",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000007",
+        "path_type": "hardlink",
+        "sha256": "3a0a3708c945ae167d8733bb509a81ada8a10e1707fd087986145e60d9865ae1",
+        "sha256_in_prefix": "3a0a3708c945ae167d8733bb509a81ada8a10e1707fd087986145e60d9865ae1",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000008",
+        "path_type": "hardlink",
+        "sha256": "f4b1fa5274d72778503ae3bb37dc3a8bc9bf0d11f24e82cc3864f3ca989e5992",
+        "sha256_in_prefix": "f4b1fa5274d72778503ae3bb37dc3a8bc9bf0d11f24e82cc3864f3ca989e5992",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000009",
+        "path_type": "hardlink",
+        "sha256": "22d61af1a002e87d425a65479714e4a3144c6270e7767b5e78b0b3bef94f0ab2",
+        "sha256_in_prefix": "22d61af1a002e87d425a65479714e4a3144c6270e7767b5e78b0b3bef94f0ab2",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000A",
+        "path_type": "hardlink",
+        "sha256": "51c0782dee293936b2ba829262520757db2901e1a5aa9ab26fdbab2802b316c7",
+        "sha256_in_prefix": "51c0782dee293936b2ba829262520757db2901e1a5aa9ab26fdbab2802b316c7",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000B",
+        "path_type": "hardlink",
+        "sha256": "7b6631741278951f56b2c212ea235446bb7daca24ce95ed46a5760ecc89073f2",
+        "sha256_in_prefix": "7b6631741278951f56b2c212ea235446bb7daca24ce95ed46a5760ecc89073f2",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000C",
+        "path_type": "hardlink",
+        "sha256": "927265178cc969c3323a98c8a9413ac1d6c0c5071312a9307b283c7ec02bbf07",
+        "sha256_in_prefix": "927265178cc969c3323a98c8a9413ac1d6c0c5071312a9307b283c7ec02bbf07",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000D",
+        "path_type": "hardlink",
+        "sha256": "9f6c0848caf98ae80e6c29dd4bb0d2be1eb4e6974a7547ee4272618bcc909860",
+        "sha256_in_prefix": "9f6c0848caf98ae80e6c29dd4bb0d2be1eb4e6974a7547ee4272618bcc909860",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000E",
+        "path_type": "hardlink",
+        "sha256": "9b0ef0897b5e812dcbccf4ba1d18bbe5a61ba5ea50aeb0a5f93a5cde7052ac3c",
+        "sha256_in_prefix": "9b0ef0897b5e812dcbccf4ba1d18bbe5a61ba5ea50aeb0a5f93a5cde7052ac3c",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000F",
+        "path_type": "hardlink",
+        "sha256": "9ce49c07b19c51bde456516b2bdd262c834be1a74b52e1b5611c949d33a53e77",
+        "sha256_in_prefix": "9ce49c07b19c51bde456516b2bdd262c834be1a74b52e1b5611c949d33a53e77",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000G",
+        "path_type": "hardlink",
+        "sha256": "e7a67c5fa59285cdd00fff30f44d0e1d8d6dd214af5ad91c45e52fc730680dfb",
+        "sha256_in_prefix": "e7a67c5fa59285cdd00fff30f44d0e1d8d6dd214af5ad91c45e52fc730680dfb",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000H",
+        "path_type": "hardlink",
+        "sha256": "0731c490e18a66111a344eca52d7795416b1891bae81d78022e44b53687e47dd",
+        "sha256_in_prefix": "0731c490e18a66111a344eca52d7795416b1891bae81d78022e44b53687e47dd",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000I",
+        "path_type": "hardlink",
+        "sha256": "de449a1f557c96c34791d641b719fb4959f26361ab63a9f06c613c76d8453e66",
+        "sha256_in_prefix": "de449a1f557c96c34791d641b719fb4959f26361ab63a9f06c613c76d8453e66",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000J",
+        "path_type": "hardlink",
+        "sha256": "2def2ab1c9449a4ab466d830a37e83f81913afe20eff6965811c90664d9c2fcd",
+        "sha256_in_prefix": "2def2ab1c9449a4ab466d830a37e83f81913afe20eff6965811c90664d9c2fcd",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000K",
+        "path_type": "hardlink",
+        "sha256": "02d0064deb8897407ce3be38d6a495d7b55a8184c0c6a8daf341d892940b574f",
+        "sha256_in_prefix": "02d0064deb8897407ce3be38d6a495d7b55a8184c0c6a8daf341d892940b574f",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000L",
+        "path_type": "hardlink",
+        "sha256": "8ee449982560fc2eb0f6315e63e7bbbcd6cb567c1db86f50aafa81969a41e2bb",
+        "sha256_in_prefix": "8ee449982560fc2eb0f6315e63e7bbbcd6cb567c1db86f50aafa81969a41e2bb",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000M",
+        "path_type": "hardlink",
+        "sha256": "11f9399d698ae878a62de238e4eb402bed258d074a0987a51c6bef24220e3173",
+        "sha256_in_prefix": "11f9399d698ae878a62de238e4eb402bed258d074a0987a51c6bef24220e3173",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000N",
+        "path_type": "hardlink",
+        "sha256": "3572ff9878df8d088dcff82097b782b362ccd0abe28c05026723ee4fc970aceb",
+        "sha256_in_prefix": "3572ff9878df8d088dcff82097b782b362ccd0abe28c05026723ee4fc970aceb",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000O",
+        "path_type": "hardlink",
+        "sha256": "f512fd34aeb2a072b851c0557a856693ffd0984737280d0db4f498f49c9ee910",
+        "sha256_in_prefix": "f512fd34aeb2a072b851c0557a856693ffd0984737280d0db4f498f49c9ee910",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000P",
+        "path_type": "hardlink",
+        "sha256": "09057eb434c169501640901419ef641bdc02ec8bec90edd31230770960c475d9",
+        "sha256_in_prefix": "09057eb434c169501640901419ef641bdc02ec8bec90edd31230770960c475d9",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000Q",
+        "path_type": "hardlink",
+        "sha256": "925b81b8288f1e3be55090e91c3e792e61d40fe4547a20bd3161a0d07fcd10f3",
+        "sha256_in_prefix": "925b81b8288f1e3be55090e91c3e792e61d40fe4547a20bd3161a0d07fcd10f3",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000R",
+        "path_type": "hardlink",
+        "sha256": "e8cbfcdc1037bf7714a87843b951d1902bb6a321d48dc08ef971e1ae86a5f5db",
+        "sha256_in_prefix": "e8cbfcdc1037bf7714a87843b951d1902bb6a321d48dc08ef971e1ae86a5f5db",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000S",
+        "path_type": "hardlink",
+        "sha256": "98cf985fbc8cca622508abed9a524ac99a7bcc2c968d9cb0b0f619437dff37ae",
+        "sha256_in_prefix": "98cf985fbc8cca622508abed9a524ac99a7bcc2c968d9cb0b0f619437dff37ae",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000T",
+        "path_type": "hardlink",
+        "sha256": "63171f58cd7d5920102ecd3d66a703397d987aba478834d18e7973bda69ecd41",
+        "sha256_in_prefix": "63171f58cd7d5920102ecd3d66a703397d987aba478834d18e7973bda69ecd41",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000U",
+        "path_type": "hardlink",
+        "sha256": "10f36649bf4b938bc1658cbba283e9027ec7e45e6cd670a1844329110e55277a",
+        "sha256_in_prefix": "10f36649bf4b938bc1658cbba283e9027ec7e45e6cd670a1844329110e55277a",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000V",
+        "path_type": "hardlink",
+        "sha256": "d9c6aed7a0beb9c9de03112236ddc16b61d8194913ea304c6c4049b05a42efa3",
+        "sha256_in_prefix": "d9c6aed7a0beb9c9de03112236ddc16b61d8194913ea304c6c4049b05a42efa3",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000W",
+        "path_type": "hardlink",
+        "sha256": "a5aaae401a1871eafb6869b27d8c82bdb882c13597db04f4c3130ec5257eab18",
+        "sha256_in_prefix": "a5aaae401a1871eafb6869b27d8c82bdb882c13597db04f4c3130ec5257eab18",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000X",
+        "path_type": "hardlink",
+        "sha256": "063a713c5c5c55be8d46e747054966728c37ecdcebfab70d5610d97f5fbb156e",
+        "sha256_in_prefix": "063a713c5c5c55be8d46e747054966728c37ecdcebfab70d5610d97f5fbb156e",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000Y",
+        "path_type": "hardlink",
+        "sha256": "a6af8ef77e146f5f52f952a0ebd7d1f576bdb9e8a34ed869cc919971eca9c7ee",
+        "sha256_in_prefix": "a6af8ef77e146f5f52f952a0ebd7d1f576bdb9e8a34ed869cc919971eca9c7ee",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00000Z",
+        "path_type": "hardlink",
+        "sha256": "dc48a277663d8587ccddec98d7787533d16a529648d058c177eba81effa47f9a",
+        "sha256_in_prefix": "dc48a277663d8587ccddec98d7787533d16a529648d058c177eba81effa47f9a",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000010",
+        "path_type": "hardlink",
+        "sha256": "4421e9007973857eff53fd55110ab14ed2664dcbad8e6a09eda7d5a36967060d",
+        "sha256_in_prefix": "4421e9007973857eff53fd55110ab14ed2664dcbad8e6a09eda7d5a36967060d",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000011",
+        "path_type": "hardlink",
+        "sha256": "371c2ead3c07dee6a2ff4aa9dcfe411dbda7b8d9b1b053a5d62074b1035eb8cd",
+        "sha256_in_prefix": "371c2ead3c07dee6a2ff4aa9dcfe411dbda7b8d9b1b053a5d62074b1035eb8cd",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000012",
+        "path_type": "hardlink",
+        "sha256": "f4617c747d0ea55c93da0a643bd182405975210aab79bdb1534c8dfa4d773517",
+        "sha256_in_prefix": "f4617c747d0ea55c93da0a643bd182405975210aab79bdb1534c8dfa4d773517",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000013",
+        "path_type": "hardlink",
+        "sha256": "ae77b14a0788e39a2359dcf3790a4960375919ca2ec9755fa539eaa6a67f3222",
+        "sha256_in_prefix": "ae77b14a0788e39a2359dcf3790a4960375919ca2ec9755fa539eaa6a67f3222",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000014",
+        "path_type": "hardlink",
+        "sha256": "1aad1c14968d2ed054ad1b389d00fb434d0c79c22e1fd637da44874712808543",
+        "sha256_in_prefix": "1aad1c14968d2ed054ad1b389d00fb434d0c79c22e1fd637da44874712808543",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000015",
+        "path_type": "hardlink",
+        "sha256": "ced31763f24051bab57886528350021caa25354115e448beac9ea0e4d19a27bd",
+        "sha256_in_prefix": "ced31763f24051bab57886528350021caa25354115e448beac9ea0e4d19a27bd",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000016",
+        "path_type": "hardlink",
+        "sha256": "5a58bb3853e55bc0c4d2629e0ce4aa1418689950b3d5adb84696383be533dca3",
+        "sha256_in_prefix": "5a58bb3853e55bc0c4d2629e0ce4aa1418689950b3d5adb84696383be533dca3",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000017",
+        "path_type": "hardlink",
+        "sha256": "5160bff5c0dc773c797d41f37cfff0d25cb3262343e2f23101ed4bd9b8deba9c",
+        "sha256_in_prefix": "5160bff5c0dc773c797d41f37cfff0d25cb3262343e2f23101ed4bd9b8deba9c",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000018",
+        "path_type": "hardlink",
+        "sha256": "2d748b14f4a5b108bfda0c7d8e856d81d6df0bdd6aba122099f0a691c145ee32",
+        "sha256_in_prefix": "2d748b14f4a5b108bfda0c7d8e856d81d6df0bdd6aba122099f0a691c145ee32",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM000019",
+        "path_type": "hardlink",
+        "sha256": "911218936688887e01ca4915f0f31099ba0c225d514018cbc3cbbc656c09a106",
+        "sha256_in_prefix": "911218936688887e01ca4915f0f31099ba0c225d514018cbc3cbbc656c09a106",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00001A",
+        "path_type": "hardlink",
+        "sha256": "b33df5eb1bd69b0a3f12c4199370c3b6af012f61f2b446c71f6a393e75ce1d9e",
+        "sha256_in_prefix": "b33df5eb1bd69b0a3f12c4199370c3b6af012f61f2b446c71f6a393e75ce1d9e",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00001B",
+        "path_type": "hardlink",
+        "sha256": "6ff1e959b8ebbe851fc1ea0418bd887db204db1e20a4f84ead34291a0ab4c08d",
+        "sha256_in_prefix": "6ff1e959b8ebbe851fc1ea0418bd887db204db1e20a4f84ead34291a0ab4c08d",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00001C",
+        "path_type": "hardlink",
+        "sha256": "2692a5adb182884c9d001caee87da37eefae36b5843963f5bb9f4428b7265c98",
+        "sha256_in_prefix": "2692a5adb182884c9d001caee87da37eefae36b5843963f5bb9f4428b7265c98",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/PT000000/ST000000/SE000000/IM00001D",
+        "path_type": "hardlink",
+        "sha256": "6e78538713a203406c5421b738eb7fa567ed5a7afbbd7749f900f27682fd4394",
+        "sha256_in_prefix": "6e78538713a203406c5421b738eb7fa567ed5a7afbbd7749f900f27682fd4394",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/dicomdirtests/TINY_ALPHA/README",
+        "path_type": "hardlink",
+        "sha256": "c7400b11ebe9aabe334f290ee2caf930d5dbdadc7410e11a00a3f83cf05cef4c",
+        "sha256_in_prefix": "c7400b11ebe9aabe334f290ee2caf930d5dbdadc7410e11a00a3f83cf05cef4c",
+        "size_in_bytes": 1206
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/empty_charset_LEI.dcm",
+        "path_type": "hardlink",
+        "sha256": "7fd2082a76e9a97cb1306f1da389bafe32ec2f874262a9c6c78b7c475acffb4d",
+        "sha256_in_prefix": "7fd2082a76e9a97cb1306f1da389bafe32ec2f874262a9c6c78b7c475acffb4d",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/image_dfl.dcm",
+        "path_type": "hardlink",
+        "sha256": "0029ebbba17e7c6f081408d433cd28b5d1cfee0eeb4cff509b4d972ffa9daf27",
+        "sha256_in_prefix": "0029ebbba17e7c6f081408d433cd28b5d1cfee0eeb4cff509b4d972ffa9daf27",
+        "size_in_bytes": 4637
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/liver_1frame.dcm",
+        "path_type": "hardlink",
+        "sha256": "8ac3546185d0c18c193438b47b16c4ef323f0ebe0e8fd071ee1e6d43edef1978",
+        "sha256_in_prefix": "8ac3546185d0c18c193438b47b16c4ef323f0ebe0e8fd071ee1e6d43edef1978",
+        "size_in_bytes": 37084
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/liver_expb_1frame.dcm",
+        "path_type": "hardlink",
+        "sha256": "2429258dec0f9c444b69d9d7326b442bd27c66a2ba1d6f68804005d27df6af13",
+        "sha256_in_prefix": "2429258dec0f9c444b69d9d7326b442bd27c66a2ba1d6f68804005d27df6af13",
+        "size_in_bytes": 36532
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/meta_missing_tsyntax.dcm",
+        "path_type": "hardlink",
+        "sha256": "075dc51483951bb651ddafd77e803101fcee21ab656ca87d6e531eaeaeb440f2",
+        "sha256_in_prefix": "075dc51483951bb651ddafd77e803101fcee21ab656ca87d6e531eaeaeb440f2",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/nested_priv_SQ.dcm",
+        "path_type": "hardlink",
+        "sha256": "5cc694964c10cb02b501f02585909a7f4ef4656c07a89e603d1833629919c5c6",
+        "sha256_in_prefix": "5cc694964c10cb02b501f02585909a7f4ef4656c07a89e603d1833629919c5c6",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/no_meta.dcm",
+        "path_type": "hardlink",
+        "sha256": "52912b9950f457ac7618efaad0cdd91b52354e07fbc25abee895bd86beebf9bc",
+        "sha256_in_prefix": "52912b9950f457ac7618efaad0cdd91b52354e07fbc25abee895bd86beebf9bc",
+        "size_in_bytes": 38871
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/no_meta_group_length.dcm",
+        "path_type": "hardlink",
+        "sha256": "76c6af82b4246285f6e5b53f150af44b9b7e2afe7ae25e1b604c549ba3d16733",
+        "sha256_in_prefix": "76c6af82b4246285f6e5b53f150af44b9b7e2afe7ae25e1b604c549ba3d16733",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/priv_SQ.dcm",
+        "path_type": "hardlink",
+        "sha256": "025ea791cd965b7977a3f1394d64bd3617e73dbc796627c989bdcbb0641270a2",
+        "sha256_in_prefix": "025ea791cd965b7977a3f1394d64bd3617e73dbc796627c989bdcbb0641270a2",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/reportsi.dcm",
+        "path_type": "hardlink",
+        "sha256": "59ca5f4fbf524bd542a907f8f29028be510e9d907239dbe2f1c82ffc5088538b",
+        "sha256_in_prefix": "59ca5f4fbf524bd542a907f8f29028be510e9d907239dbe2f1c82ffc5088538b",
+        "size_in_bytes": 2968
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/reportsi_with_empty_number_tags.dcm",
+        "path_type": "hardlink",
+        "sha256": "fd8a8a5dc3eaa053d08974981f70ce4837f4a1676288b9f059d660f7c4701a92",
+        "sha256_in_prefix": "fd8a8a5dc3eaa053d08974981f70ce4837f4a1676288b9f059d660f7c4701a92",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtdose.dcm",
+        "path_type": "hardlink",
+        "sha256": "1d6cc092146d093e086a6bcccef4ebb7d097941343f5cd3b6395d157b64e37e4",
+        "sha256_in_prefix": "1d6cc092146d093e086a6bcccef4ebb7d097941343f5cd3b6395d157b64e37e4",
+        "size_in_bytes": 7568
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtdose_1frame.dcm",
+        "path_type": "hardlink",
+        "sha256": "6685273e1661562f38dbe2b1c6284b9c950c7dbcf080a71c14305d623d0b6090",
+        "sha256_in_prefix": "6685273e1661562f38dbe2b1c6284b9c950c7dbcf080a71c14305d623d0b6090",
+        "size_in_bytes": 1958
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtdose_expb.dcm",
+        "path_type": "hardlink",
+        "sha256": "fe40ee7ed0cd63d1e76b51b42d4e68b764bd5f8a9ad59ce9fab9487158c550b8",
+        "sha256_in_prefix": "fe40ee7ed0cd63d1e76b51b42d4e68b764bd5f8a9ad59ce9fab9487158c550b8",
+        "size_in_bytes": 7618
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtdose_expb_1frame.dcm",
+        "path_type": "hardlink",
+        "sha256": "a96cfd3c8d4ca70f2a8d1b85bc22b47d7bbd609d7d21ea2fe821314a0cd36746",
+        "sha256_in_prefix": "a96cfd3c8d4ca70f2a8d1b85bc22b47d7bbd609d7d21ea2fe821314a0cd36746",
+        "size_in_bytes": 2008
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtdose_rle.dcm",
+        "path_type": "hardlink",
+        "sha256": "2f83e3a2ef0de355570c38860b233fc2fa6c37626c81ad080d8661c03a413522",
+        "sha256_in_prefix": "2f83e3a2ef0de355570c38860b233fc2fa6c37626c81ad080d8661c03a413522",
+        "size_in_bytes": 6816
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtdose_rle_1frame.dcm",
+        "path_type": "hardlink",
+        "sha256": "f4e7a3b7aeb386ca1a2d7460b0c49771d923f6fd8abba08c1d4c7bc5c25cfc27",
+        "sha256_in_prefix": "f4e7a3b7aeb386ca1a2d7460b0c49771d923f6fd8abba08c1d4c7bc5c25cfc27",
+        "size_in_bytes": 2122
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtplan.dcm",
+        "path_type": "hardlink",
+        "sha256": "18585dbbd6f7c5d1b7e749d6976d72251802ad89d65bccd31c03006f95aab89b",
+        "sha256_in_prefix": "18585dbbd6f7c5d1b7e749d6976d72251802ad89d65bccd31c03006f95aab89b",
+        "size_in_bytes": 2672
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtplan.dump",
+        "path_type": "hardlink",
+        "sha256": "4e5fa666b773db89bb12c04a67723df2bbbfe3f320e2d1b2c54e1e0bbff372f0",
+        "sha256_in_prefix": "4e5fa666b773db89bb12c04a67723df2bbbfe3f320e2d1b2c54e1e0bbff372f0",
+        "size_in_bytes": 14474
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtplan_truncated.dcm",
+        "path_type": "hardlink",
+        "sha256": "15009ec7713dc53b95adfd4e1a692885240ddd34a0f18f52c0327a05cacbfd53",
+        "sha256_in_prefix": "15009ec7713dc53b95adfd4e1a692885240ddd34a0f18f52c0327a05cacbfd53",
+        "size_in_bytes": 2129
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtstruct.dcm",
+        "path_type": "hardlink",
+        "sha256": "40c41bdf871fd8553396b02476a66024ed23c04927c0dc53fd10ecd3472cd0d3",
+        "sha256_in_prefix": "40c41bdf871fd8553396b02476a66024ed23c04927c0dc53fd10ecd3472cd0d3",
+        "size_in_bytes": 2534
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/rtstruct.dump",
+        "path_type": "hardlink",
+        "sha256": "cbc0d10b5a18f779d8073288b3c290b144869f68c967d258db8bac90082910d1",
+        "sha256_in_prefix": "cbc0d10b5a18f779d8073288b3c290b144869f68c967d258db8bac90082910d1",
+        "size_in_bytes": 7935
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/test-SR.dcm",
+        "path_type": "hardlink",
+        "sha256": "eebf00a37e97503b5a65022f9c2f89db6e8dac4cc632682aa3456aee1b6c177e",
+        "sha256_in_prefix": "eebf00a37e97503b5a65022f9c2f89db6e8dac4cc632682aa3456aee1b6c177e",
+        "size_in_bytes": 6796
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/test1.json",
+        "path_type": "hardlink",
+        "sha256": "bdd33ec0975b7d54069e9f70e7ed0c243387266df432ee339b59321d6df2db60",
+        "sha256_in_prefix": "bdd33ec0975b7d54069e9f70e7ed0c243387266df432ee339b59321d6df2db60",
+        "size_in_bytes": 20965
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/test_PN.json",
+        "path_type": "hardlink",
+        "sha256": "1f494985d72abf53764b9c7189cb47b8b332c2f482501bce237e4f81d48a9141",
+        "sha256_in_prefix": "1f494985d72abf53764b9c7189cb47b8b332c2f482501bce237e4f81d48a9141",
+        "size_in_bytes": 1841
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/waveform_ecg.dcm",
+        "path_type": "hardlink",
+        "sha256": "72f1cb0e65e8023321acdaa5425c44125cd507f5aaa148f7fe10516e1d2e688a",
+        "sha256_in_prefix": "72f1cb0e65e8023321acdaa5425c44125cd507f5aaa148f7fe10516e1d2e688a",
+        "size_in_bytes": 291088
+      },
+      {
+        "_path": "site-packages/pydicom/data/test_files/zipMR.gz",
+        "path_type": "hardlink",
+        "sha256": "752a2cd0480ab947019c5d5e8d29ca297a6806681c9b21d5a1d74d81f215edeb",
+        "sha256_in_prefix": "752a2cd0480ab947019c5d5e8d29ca297a6806681c9b21d5a1d74d81f215edeb",
+        "size_in_bytes": 6958
+      },
+      {
+        "_path": "site-packages/pydicom/data/urls.json",
+        "path_type": "hardlink",
+        "sha256": "54943a98ba5f02ea2c15e8adf2b98b0a7b99452acf255309f5a963992dcf3888",
+        "sha256_in_prefix": "54943a98ba5f02ea2c15e8adf2b98b0a7b99452acf255309f5a963992dcf3888",
+        "size_in_bytes": 9485
+      },
+      {
+        "_path": "site-packages/pydicom/datadict.py",
+        "path_type": "hardlink",
+        "sha256": "28d62e3702cfe2268cad828ed50ea8e19835920795de108175d9d45069743d3c",
+        "sha256_in_prefix": "28d62e3702cfe2268cad828ed50ea8e19835920795de108175d9d45069743d3c",
+        "size_in_bytes": 18650
+      },
+      {
+        "_path": "site-packages/pydicom/dataelem.py",
+        "path_type": "hardlink",
+        "sha256": "7dfbee9b395a53984c71707f7cd1d035aad6f505fb8b675b78d3bc8db0619104",
+        "sha256_in_prefix": "7dfbee9b395a53984c71707f7cd1d035aad6f505fb8b675b78d3bc8db0619104",
+        "size_in_bytes": 31098
+      },
+      {
+        "_path": "site-packages/pydicom/dataset.py",
+        "path_type": "hardlink",
+        "sha256": "730ecc05f993eb610bb36cb3ec432bfe912b8af7f2b994c5bafb2f2eb83fae77",
+        "sha256_in_prefix": "730ecc05f993eb610bb36cb3ec432bfe912b8af7f2b994c5bafb2f2eb83fae77",
+        "size_in_bytes": 109626
+      },
+      {
+        "_path": "site-packages/pydicom/dicomdir.py",
+        "path_type": "hardlink",
+        "sha256": "4268eed46543b5bcf3031fe86f34907322a8a317c77b4a0087e22f28aabb43e6",
+        "sha256_in_prefix": "4268eed46543b5bcf3031fe86f34907322a8a317c77b4a0087e22f28aabb43e6",
+        "size_in_bytes": 5676
+      },
+      {
+        "_path": "site-packages/pydicom/dicomio.py",
+        "path_type": "hardlink",
+        "sha256": "7dd8386f063d5cde11571b0408b6e609b9363e4da5e01ce439154c9d02c77a5e",
+        "sha256_in_prefix": "7dd8386f063d5cde11571b0408b6e609b9363e4da5e01ce439154c9d02c77a5e",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "site-packages/pydicom/encaps.py",
+        "path_type": "hardlink",
+        "sha256": "85c3288b4a301d9f9e139c91ce3df7b9af15fbe894c506e7346dbf0395529149",
+        "sha256_in_prefix": "85c3288b4a301d9f9e139c91ce3df7b9af15fbe894c506e7346dbf0395529149",
+        "size_in_bytes": 26824
+      },
+      {
+        "_path": "site-packages/pydicom/encoders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3632b5b85806fc53ff05048ec545757486c126d9c3fc2ccbff6c187c57834c2",
+        "sha256_in_prefix": "b3632b5b85806fc53ff05048ec545757486c126d9c3fc2ccbff6c187c57834c2",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/pydicom/encoders/base.py",
+        "path_type": "hardlink",
+        "sha256": "b99095879d6b48e5587ca4a62ec1f8d70b6c36780da9abc81433099101b596f4",
+        "sha256_in_prefix": "b99095879d6b48e5587ca4a62ec1f8d70b6c36780da9abc81433099101b596f4",
+        "size_in_bytes": 36135
+      },
+      {
+        "_path": "site-packages/pydicom/encoders/gdcm.py",
+        "path_type": "hardlink",
+        "sha256": "126444b5ed2cfcf2dd89cd952718551cae381a6de292e9273e1e349e17aa2f8f",
+        "sha256_in_prefix": "126444b5ed2cfcf2dd89cd952718551cae381a6de292e9273e1e349e17aa2f8f",
+        "size_in_bytes": 5901
+      },
+      {
+        "_path": "site-packages/pydicom/encoders/native.py",
+        "path_type": "hardlink",
+        "sha256": "ca91e51ef62113c39708f135227708b52006e5895176c6c50e60c9f90a66c56d",
+        "sha256_in_prefix": "ca91e51ef62113c39708f135227708b52006e5895176c6c50e60c9f90a66c56d",
+        "size_in_bytes": 5374
+      },
+      {
+        "_path": "site-packages/pydicom/encoders/pylibjpeg.py",
+        "path_type": "hardlink",
+        "sha256": "07281353786a35bafc28c8ce993cf075ba6ea5f4d6a0567516644f07ffb47567",
+        "sha256_in_prefix": "07281353786a35bafc28c8ce993cf075ba6ea5f4d6a0567516644f07ffb47567",
+        "size_in_bytes": 1125
+      },
+      {
+        "_path": "site-packages/pydicom/env_info.py",
+        "path_type": "hardlink",
+        "sha256": "f5aaf8dbe9b87f9619f319da96f317ec529c29774fcf4b0b509ec9e78325523d",
+        "sha256_in_prefix": "f5aaf8dbe9b87f9619f319da96f317ec529c29774fcf4b0b509ec9e78325523d",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "site-packages/pydicom/errors.py",
+        "path_type": "hardlink",
+        "sha256": "6bde70191ef2133612eecc1101cecd1d99bf4edc6cbba16dfd8afcf0daf2a939",
+        "sha256_in_prefix": "6bde70191ef2133612eecc1101cecd1d99bf4edc6cbba16dfd8afcf0daf2a939",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "site-packages/pydicom/filebase.py",
+        "path_type": "hardlink",
+        "sha256": "0b66b3406adb3041fe7e8c54a8707d9a929bb4873af52e6663ea7722df1a1035",
+        "sha256_in_prefix": "0b66b3406adb3041fe7e8c54a8707d9a929bb4873af52e6663ea7722df1a1035",
+        "size_in_bytes": 7794
+      },
+      {
+        "_path": "site-packages/pydicom/filereader.py",
+        "path_type": "hardlink",
+        "sha256": "5ca0cd6d3c14973b9cafff5242a56a178d6511559b24fc381e95889417a3e552",
+        "sha256_in_prefix": "5ca0cd6d3c14973b9cafff5242a56a178d6511559b24fc381e95889417a3e552",
+        "size_in_bytes": 44662
+      },
+      {
+        "_path": "site-packages/pydicom/fileset.py",
+        "path_type": "hardlink",
+        "sha256": "0e9932401c436ec9cf6e727007935c5675e332e9f89eea33171f41b128c3b8d3",
+        "sha256_in_prefix": "0e9932401c436ec9cf6e727007935c5675e332e9f89eea33171f41b128c3b8d3",
+        "size_in_bytes": 102357
+      },
+      {
+        "_path": "site-packages/pydicom/fileutil.py",
+        "path_type": "hardlink",
+        "sha256": "9836ebd0714e7a840478e8ba0b26a5befb4b0c1cdfe35fa63f9c97f938dde5f1",
+        "sha256_in_prefix": "9836ebd0714e7a840478e8ba0b26a5befb4b0c1cdfe35fa63f9c97f938dde5f1",
+        "size_in_bytes": 14625
+      },
+      {
+        "_path": "site-packages/pydicom/filewriter.py",
+        "path_type": "hardlink",
+        "sha256": "447ac654bb1cab799173cf39c1c9ec780105b09e6303c5185c0c320a40b85ec0",
+        "sha256_in_prefix": "447ac654bb1cab799173cf39c1c9ec780105b09e6303c5185c0c320a40b85ec0",
+        "size_in_bytes": 44237
+      },
+      {
+        "_path": "site-packages/pydicom/jsonrep.py",
+        "path_type": "hardlink",
+        "sha256": "d739cb5f1327be35f55c4285130ad6d1d174fecf88780d9fcc2c10ac8014f3c8",
+        "sha256_in_prefix": "d739cb5f1327be35f55c4285130ad6d1d174fecf88780d9fcc2c10ac8014f3c8",
+        "size_in_bytes": 12252
+      },
+      {
+        "_path": "site-packages/pydicom/misc.py",
+        "path_type": "hardlink",
+        "sha256": "ba7ed28a6e9b109f2d80c1742808289836327104286a7820e5007160afddae6a",
+        "sha256_in_prefix": "ba7ed28a6e9b109f2d80c1742808289836327104286a7820e5007160afddae6a",
+        "size_in_bytes": 1644
+      },
+      {
+        "_path": "site-packages/pydicom/multival.py",
+        "path_type": "hardlink",
+        "sha256": "25aac5d6b68c575b1bf7315812983ed88f3f40743500153f888e9c40a98ac3df",
+        "sha256_in_prefix": "25aac5d6b68c575b1bf7315812983ed88f3f40743500153f888e9c40a98ac3df",
+        "size_in_bytes": 5140
+      },
+      {
+        "_path": "site-packages/pydicom/overlay_data_handlers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c0bc07e880a277bd95f277664ee514649a18e02f62bff565d5742cb3ce9f342a",
+        "sha256_in_prefix": "c0bc07e880a277bd95f277664ee514649a18e02f62bff565d5742cb3ce9f342a",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/pydicom/overlays/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "98d98664df2e1b3e35ee84a61e4152c3c7e755d085477b32637645087f03c72a",
+        "sha256_in_prefix": "98d98664df2e1b3e35ee84a61e4152c3c7e755d085477b32637645087f03c72a",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "site-packages/pydicom/overlays/numpy_handler.py",
+        "path_type": "hardlink",
+        "sha256": "7416793747b2e553a9bb3afe7e0a802544ab03fca96e9fc2e73bebb83fa74e84",
+        "sha256_in_prefix": "7416793747b2e553a9bb3afe7e0a802544ab03fca96e9fc2e73bebb83fa74e84",
+        "size_in_bytes": 9951
+      },
+      {
+        "_path": "site-packages/pydicom/pixel_data_handlers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3f0de6fba7854e7041f72c349d16b5e8d93fa93ed10d1fb6d92a62f9e5940e2b",
+        "sha256_in_prefix": "3f0de6fba7854e7041f72c349d16b5e8d93fa93ed10d1fb6d92a62f9e5940e2b",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "site-packages/pydicom/pixel_data_handlers/gdcm_handler.py",
+        "path_type": "hardlink",
+        "sha256": "9167bdd67143145044a625c4deaa09e72ae1fb2a04ba428663d7532cca1e1f10",
+        "sha256_in_prefix": "9167bdd67143145044a625c4deaa09e72ae1fb2a04ba428663d7532cca1e1f10",
+        "size_in_bytes": 9761
+      },
+      {
+        "_path": "site-packages/pydicom/pixel_data_handlers/jpeg_ls_handler.py",
+        "path_type": "hardlink",
+        "sha256": "85c60ded1765508158bf7a473dbfda5b8f1235692d6fb7146f80864dba678fc5",
+        "sha256_in_prefix": "85c60ded1765508158bf7a473dbfda5b8f1235692d6fb7146f80864dba678fc5",
+        "size_in_bytes": 3396
+      },
+      {
+        "_path": "site-packages/pydicom/pixel_data_handlers/numpy_handler.py",
+        "path_type": "hardlink",
+        "sha256": "44144611b75fb5f48c3ec02e2a50a7819e4d8398452894277d3fe3274c89bfef",
+        "sha256_in_prefix": "44144611b75fb5f48c3ec02e2a50a7819e4d8398452894277d3fe3274c89bfef",
+        "size_in_bytes": 12284
+      },
+      {
+        "_path": "site-packages/pydicom/pixel_data_handlers/pillow_handler.py",
+        "path_type": "hardlink",
+        "sha256": "885f9c8fb471e92bb0813cf58d70015324aa7fa8c1f365dbdf4b29a4765c993f",
+        "sha256_in_prefix": "885f9c8fb471e92bb0813cf58d70015324aa7fa8c1f365dbdf4b29a4765c993f",
+        "size_in_bytes": 8695
+      },
+      {
+        "_path": "site-packages/pydicom/pixel_data_handlers/pylibjpeg_handler.py",
+        "path_type": "hardlink",
+        "sha256": "42607c5208b4846f768cf41bc8f6241e178911216a1f532309eafb1c167f4f69",
+        "sha256_in_prefix": "42607c5208b4846f768cf41bc8f6241e178911216a1f532309eafb1c167f4f69",
+        "size_in_bytes": 11053
+      },
+      {
+        "_path": "site-packages/pydicom/pixel_data_handlers/rle_handler.py",
+        "path_type": "hardlink",
+        "sha256": "a4c356e427f41f25ef33a8eaf8f68f9a6ef4f3e50a0c85d390e4eeb7eabe646f",
+        "sha256_in_prefix": "a4c356e427f41f25ef33a8eaf8f68f9a6ef4f3e50a0c85d390e4eeb7eabe646f",
+        "size_in_bytes": 16581
+      },
+      {
+        "_path": "site-packages/pydicom/pixel_data_handlers/util.py",
+        "path_type": "hardlink",
+        "sha256": "f2a69f8ebfdd20b4f93fbe24073ce31ceab142f74c679ee4c6163364375022fa",
+        "sha256_in_prefix": "f2a69f8ebfdd20b4f93fbe24073ce31ceab142f74c679ee4c6163364375022fa",
+        "size_in_bytes": 54722
+      },
+      {
+        "_path": "site-packages/pydicom/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pydicom/sequence.py",
+        "path_type": "hardlink",
+        "sha256": "77d9bfc6891fb47f85cec3514db202c18fc48dc05bd8376b974b5e9ea1b5597c",
+        "sha256_in_prefix": "77d9bfc6891fb47f85cec3514db202c18fc48dc05bd8376b974b5e9ea1b5597c",
+        "size_in_bytes": 7608
+      },
+      {
+        "_path": "site-packages/pydicom/sr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cfa3a92305f5d8b953383d9f93f6af0a4a53f45727d3e027642a01362e40ca42",
+        "sha256_in_prefix": "cfa3a92305f5d8b953383d9f93f6af0a4a53f45727d3e027642a01362e40ca42",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/pydicom/sr/_cid_dict.py",
+        "path_type": "hardlink",
+        "sha256": "8ab05ce4c59a0ae373804c7ee8b14726274b7262ae4e44070d8c9325ee986e15",
+        "sha256_in_prefix": "8ab05ce4c59a0ae373804c7ee8b14726274b7262ae4e44070d8c9325ee986e15",
+        "size_in_bytes": 788696
+      },
+      {
+        "_path": "site-packages/pydicom/sr/_concepts_dict.py",
+        "path_type": "hardlink",
+        "sha256": "36e9caaf2df9aef8231e28da58ce66184cb003b9f46fff17f344e1ecfc266aa6",
+        "sha256_in_prefix": "36e9caaf2df9aef8231e28da58ce66184cb003b9f46fff17f344e1ecfc266aa6",
+        "size_in_bytes": 2725654
+      },
+      {
+        "_path": "site-packages/pydicom/sr/_snomed_dict.py",
+        "path_type": "hardlink",
+        "sha256": "d267a7f8a2f49ee60321bcc4271f7cebcabd3f155a435428856863dc38a72ac3",
+        "sha256_in_prefix": "d267a7f8a2f49ee60321bcc4271f7cebcabd3f155a435428856863dc38a72ac3",
+        "size_in_bytes": 424515
+      },
+      {
+        "_path": "site-packages/pydicom/sr/codedict.py",
+        "path_type": "hardlink",
+        "sha256": "25680276ea1b8425e20b86d9853ba0f33b2aacaec2004897ce9a7ae67d1e1ce6",
+        "sha256_in_prefix": "25680276ea1b8425e20b86d9853ba0f33b2aacaec2004897ce9a7ae67d1e1ce6",
+        "size_in_bytes": 11035
+      },
+      {
+        "_path": "site-packages/pydicom/sr/coding.py",
+        "path_type": "hardlink",
+        "sha256": "c6d78bde1cffd9685e9df67b614d5d46fa5f11db9757293e3740df785a144fe5",
+        "sha256_in_prefix": "c6d78bde1cffd9685e9df67b614d5d46fa5f11db9757293e3740df785a144fe5",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "site-packages/pydicom/tag.py",
+        "path_type": "hardlink",
+        "sha256": "50408d14b85d717b714039efa1ddd5faff2933e57ad42d535380a5adb4223f66",
+        "sha256_in_prefix": "50408d14b85d717b714039efa1ddd5faff2933e57ad42d535380a5adb4223f66",
+        "size_in_bytes": 8541
+      },
+      {
+        "_path": "site-packages/pydicom/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pydicom/tests/_write_stds.py",
+        "path_type": "hardlink",
+        "sha256": "dd51e3f60e8d25d9811902e6ec2fb1f4dac5d62f43d0109338b480ed0c4fc77d",
+        "sha256_in_prefix": "dd51e3f60e8d25d9811902e6ec2fb1f4dac5d62f43d0109338b480ed0c4fc77d",
+        "size_in_bytes": 3006
+      },
+      {
+        "_path": "site-packages/pydicom/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "be72a4900745501ed877b46cb197bcb225aeb5d2b88d06bb95922e3e4c43e90e",
+        "sha256_in_prefix": "be72a4900745501ed877b46cb197bcb225aeb5d2b88d06bb95922e3e4c43e90e",
+        "size_in_bytes": 2548
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_JPEG_LS_transfer_syntax.py",
+        "path_type": "hardlink",
+        "sha256": "3019a43fd58dbb0cfc7ca7c4d70129730d73b87db5653a4606d3f4e20220827a",
+        "sha256_in_prefix": "3019a43fd58dbb0cfc7ca7c4d70129730d73b87db5653a4606d3f4e20220827a",
+        "size_in_bytes": 6974
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_charset.py",
+        "path_type": "hardlink",
+        "sha256": "51e5f6eb4d46d7556ec53260d479d99f572ed708e139adc9e6189ef430efe57c",
+        "sha256_in_prefix": "51e5f6eb4d46d7556ec53260d479d99f572ed708e139adc9e6189ef430efe57c",
+        "size_in_bytes": 23452
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_cli.py",
+        "path_type": "hardlink",
+        "sha256": "5ed098f767fceb09e3bd7a55a183e33d62082b9fe7ca0ec7bf35dd5529151628",
+        "sha256_in_prefix": "5ed098f767fceb09e3bd7a55a183e33d62082b9fe7ca0ec7bf35dd5529151628",
+        "size_in_bytes": 7583
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_codes.py",
+        "path_type": "hardlink",
+        "sha256": "90e70552a86d050200e68b991c42f493fc7de11f75f172565f212c1c88db8601",
+        "sha256_in_prefix": "90e70552a86d050200e68b991c42f493fc7de11f75f172565f212c1c88db8601",
+        "size_in_bytes": 12646
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "7f1d728b829e1f0dc3c83123c0455b61abdd05b925ed880a7130349ba5433cc1",
+        "sha256_in_prefix": "7f1d728b829e1f0dc3c83123c0455b61abdd05b925ed880a7130349ba5433cc1",
+        "size_in_bytes": 6219
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_data_manager.py",
+        "path_type": "hardlink",
+        "sha256": "db2ad6cbf601bbc86f4afe2464d36869ff0043467636f070d1b1a69b6dd9adcc",
+        "sha256_in_prefix": "db2ad6cbf601bbc86f4afe2464d36869ff0043467636f070d1b1a69b6dd9adcc",
+        "size_in_bytes": 11345
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_dataelem.py",
+        "path_type": "hardlink",
+        "sha256": "ed14800f25c83ff18d479372e54365264d6f094b92a0dbbe4e0c61a4b35a5e46",
+        "sha256_in_prefix": "ed14800f25c83ff18d479372e54365264d6f094b92a0dbbe4e0c61a4b35a5e46",
+        "size_in_bytes": 46769
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "bf2339e02c3842b2ee0b3064f00cb6e720668de0e6ccea5510319af34c6d3859",
+        "sha256_in_prefix": "bf2339e02c3842b2ee0b3064f00cb6e720668de0e6ccea5510319af34c6d3859",
+        "size_in_bytes": 85429
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_dicomdir.py",
+        "path_type": "hardlink",
+        "sha256": "3cc209553979e8352ca4d3edf32597aecee1a3a919cfa9b22c4538c5adbd325c",
+        "sha256_in_prefix": "3cc209553979e8352ca4d3edf32597aecee1a3a919cfa9b22c4538c5adbd325c",
+        "size_in_bytes": 3522
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_dictionary.py",
+        "path_type": "hardlink",
+        "sha256": "03d144b847c5b66a169ab96dcb6e214cbb0dab356754b1bdcc40d780131933da",
+        "sha256_in_prefix": "03d144b847c5b66a169ab96dcb6e214cbb0dab356754b1bdcc40d780131933da",
+        "size_in_bytes": 6632
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_encaps.py",
+        "path_type": "hardlink",
+        "sha256": "96c710bf3b84c90d00e836c8bb0bd943f3970d5cbc16a669cddcaf7fccc85b40",
+        "sha256_in_prefix": "96c710bf3b84c90d00e836c8bb0bd943f3970d5cbc16a669cddcaf7fccc85b40",
+        "size_in_bytes": 51853
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_encoders.py",
+        "path_type": "hardlink",
+        "sha256": "c2dbdc7ead57ded0ba90c470547b8047163911c70596eac15da057caa9cd693d",
+        "sha256_in_prefix": "c2dbdc7ead57ded0ba90c470547b8047163911c70596eac15da057caa9cd693d",
+        "size_in_bytes": 40851
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_encoders_gdcm.py",
+        "path_type": "hardlink",
+        "sha256": "f4ea850574ef1e36074b37c9d152ad8847cee552f58c6c369fe4a181ce32f22b",
+        "sha256_in_prefix": "f4ea850574ef1e36074b37c9d152ad8847cee552f58c6c369fe4a181ce32f22b",
+        "size_in_bytes": 9907
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_encoders_pydicom.py",
+        "path_type": "hardlink",
+        "sha256": "cf68a0db37c2cae0686b388c385fc4fcb8d995b9272cad521ecf804087fb0c22",
+        "sha256_in_prefix": "cf68a0db37c2cae0686b388c385fc4fcb8d995b9272cad521ecf804087fb0c22",
+        "size_in_bytes": 16311
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_env_info.py",
+        "path_type": "hardlink",
+        "sha256": "d36fd8777f70363a4dd1c764c27fd449cad8c3423efba1df902d3ca63f0b7e84",
+        "sha256_in_prefix": "d36fd8777f70363a4dd1c764c27fd449cad8c3423efba1df902d3ca63f0b7e84",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_errors.py",
+        "path_type": "hardlink",
+        "sha256": "342891cc8fce8380cc22abb03b2005a16e8ce0d483b95df0f5ac8cbd871a689f",
+        "sha256_in_prefix": "342891cc8fce8380cc22abb03b2005a16e8ce0d483b95df0f5ac8cbd871a689f",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_filebase.py",
+        "path_type": "hardlink",
+        "sha256": "5ecb8c408160405f49ddca7a5f69f4fca04c6e9863d6bc037fa4d647b45ea140",
+        "sha256_in_prefix": "5ecb8c408160405f49ddca7a5f69f4fca04c6e9863d6bc037fa4d647b45ea140",
+        "size_in_bytes": 9238
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_filereader.py",
+        "path_type": "hardlink",
+        "sha256": "6b763c92d4a4e73661a7d5e0f3334e301bf786bd4e0e009313ee603ec461735d",
+        "sha256_in_prefix": "6b763c92d4a4e73661a7d5e0f3334e301bf786bd4e0e009313ee603ec461735d",
+        "size_in_bytes": 64504
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_fileset.py",
+        "path_type": "hardlink",
+        "sha256": "277959b04e90338becca4876a61c5c9d9d24a9d8516a1ac72ddae1afc314c868",
+        "sha256_in_prefix": "277959b04e90338becca4876a61c5c9d9d24a9d8516a1ac72ddae1afc314c868",
+        "size_in_bytes": 103398
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_fileutil.py",
+        "path_type": "hardlink",
+        "sha256": "db85473ca51044dcb9523a49db9b3bfa645e695a57e58b9c276d50ae325d67fe",
+        "sha256_in_prefix": "db85473ca51044dcb9523a49db9b3bfa645e695a57e58b9c276d50ae325d67fe",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_filewriter.py",
+        "path_type": "hardlink",
+        "sha256": "49af9df04da060439f99e505527d513b601bdeb0e221031d1bf22982fa719329",
+        "sha256_in_prefix": "49af9df04da060439f99e505527d513b601bdeb0e221031d1bf22982fa719329",
+        "size_in_bytes": 109890
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_gdcm_pixel_data.py",
+        "path_type": "hardlink",
+        "sha256": "e275e3877420ebdba8f22bbdf5aaf0376f9f70ec992bbdb8761290e1525e46c3",
+        "sha256_in_prefix": "e275e3877420ebdba8f22bbdf5aaf0376f9f70ec992bbdb8761290e1525e46c3",
+        "size_in_bytes": 22750
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_handler_util.py",
+        "path_type": "hardlink",
+        "sha256": "85a8006e006f38088824e68b88f27528bc1769c8a6877051969ae853e9d4c84c",
+        "sha256_in_prefix": "85a8006e006f38088824e68b88f27528bc1769c8a6877051969ae853e9d4c84c",
+        "size_in_bytes": 92029
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "432a59beb5f31e4dad48081d469472b730e4f2909ae50f4a1350612bda3978fb",
+        "sha256_in_prefix": "432a59beb5f31e4dad48081d469472b730e4f2909ae50f4a1350612bda3978fb",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_jpeg_ls_pixel_data.py",
+        "path_type": "hardlink",
+        "sha256": "9006eab5e2f06ec026a5f902e3ece5bf4e3bdf87456fb0b2f601e2f6d8c7f928",
+        "sha256_in_prefix": "9006eab5e2f06ec026a5f902e3ece5bf4e3bdf87456fb0b2f601e2f6d8c7f928",
+        "size_in_bytes": 10161
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_json.py",
+        "path_type": "hardlink",
+        "sha256": "f99718d9d8c67a0f2dbd7a760a494ad1e99c4c96915c7404664861f2a4c83b32",
+        "sha256_in_prefix": "f99718d9d8c67a0f2dbd7a760a494ad1e99c4c96915c7404664861f2a4c83b32",
+        "size_in_bytes": 19753
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_misc.py",
+        "path_type": "hardlink",
+        "sha256": "945ce143b30c270bed7e0b2f93286a07be65bd9ce26692025dabcd2e7b014f2b",
+        "sha256_in_prefix": "945ce143b30c270bed7e0b2f93286a07be65bd9ce26692025dabcd2e7b014f2b",
+        "size_in_bytes": 1839
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_multival.py",
+        "path_type": "hardlink",
+        "sha256": "771536a4e22de400668ae8bb39fcbd5c1b4e9e7ec93b379333d8eb984f24006c",
+        "sha256_in_prefix": "771536a4e22de400668ae8bb39fcbd5c1b4e9e7ec93b379333d8eb984f24006c",
+        "size_in_bytes": 5701
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_numpy_pixel_data.py",
+        "path_type": "hardlink",
+        "sha256": "bf432b269bc2e719434e1beb04713ddae4e616f6127ee30139f5d030ddc062a9",
+        "sha256_in_prefix": "bf432b269bc2e719434e1beb04713ddae4e616f6127ee30139f5d030ddc062a9",
+        "size_in_bytes": 52194
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_overlay_np.py",
+        "path_type": "hardlink",
+        "sha256": "ba6e58474c3b22ccb845c237adfd2db6d72f27045347e044782ab346d5d62ed8",
+        "sha256_in_prefix": "ba6e58474c3b22ccb845c237adfd2db6d72f27045347e044782ab346d5d62ed8",
+        "size_in_bytes": 15745
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_pillow_pixel_data.py",
+        "path_type": "hardlink",
+        "sha256": "c3a26c4d55709cbcb96cfcbaf2de8a721232a10c53f7d9194a184c9abd68d25d",
+        "sha256_in_prefix": "c3a26c4d55709cbcb96cfcbaf2de8a721232a10c53f7d9194a184c9abd68d25d",
+        "size_in_bytes": 23963
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_pylibjpeg.py",
+        "path_type": "hardlink",
+        "sha256": "d0fc67cb4c21c8314efdd9b716b537df9d25ed92b1895902ffc3d37fdc57a2ee",
+        "sha256_in_prefix": "d0fc67cb4c21c8314efdd9b716b537df9d25ed92b1895902ffc3d37fdc57a2ee",
+        "size_in_bytes": 30879
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_rawread.py",
+        "path_type": "hardlink",
+        "sha256": "f05d9652d59cc164dc816097ea9905694f384fc2479d10b0732440440b25f48b",
+        "sha256_in_prefix": "f05d9652d59cc164dc816097ea9905694f384fc2479d10b0732440440b25f48b",
+        "size_in_bytes": 23320
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_rle_pixel_data.py",
+        "path_type": "hardlink",
+        "sha256": "13af5758bad09350191507b609e4dd6cd76f85d7b9347d012bc0ed48654be9a3",
+        "sha256_in_prefix": "13af5758bad09350191507b609e4dd6cd76f85d7b9347d012bc0ed48654be9a3",
+        "size_in_bytes": 44790
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_sequence.py",
+        "path_type": "hardlink",
+        "sha256": "355ebca7c5800f29d040339e3f7e02b6ebd992ff33609deb8546a5cccbd876a4",
+        "sha256_in_prefix": "355ebca7c5800f29d040339e3f7e02b6ebd992ff33609deb8546a5cccbd876a4",
+        "size_in_bytes": 5706
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_tag.py",
+        "path_type": "hardlink",
+        "sha256": "bae00345e80bed899296f0c95378a43b289fef984add338e796dc39ec447e2a8",
+        "sha256_in_prefix": "bae00345e80bed899296f0c95378a43b289fef984add338e796dc39ec447e2a8",
+        "size_in_bytes": 16208
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_uid.py",
+        "path_type": "hardlink",
+        "sha256": "ba4a990e46d9eafcf9c32eb9d9a0a173da6efd7a037f0ebddfbeff198c30bf29",
+        "sha256_in_prefix": "ba4a990e46d9eafcf9c32eb9d9a0a173da6efd7a037f0ebddfbeff198c30bf29",
+        "size_in_bytes": 16677
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_unicode.py",
+        "path_type": "hardlink",
+        "sha256": "18f6f2cc545660eb3321a2e1349a2692048c9e82cfb5d66ee7d2fde4b8e44c25",
+        "sha256_in_prefix": "18f6f2cc545660eb3321a2e1349a2692048c9e82cfb5d66ee7d2fde4b8e44c25",
+        "size_in_bytes": 845
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "bd49dfc37b959190a3fa8ad497e80d1b860861f2f92fd4ab46c1610975f84c78",
+        "sha256_in_prefix": "bd49dfc37b959190a3fa8ad497e80d1b860861f2f92fd4ab46c1610975f84c78",
+        "size_in_bytes": 19907
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_valuerep.py",
+        "path_type": "hardlink",
+        "sha256": "8f72f79cfe5c290f1a71d2f6a208a7cb43ffed815d0a39771ae214a96ce1d9f8",
+        "sha256_in_prefix": "8f72f79cfe5c290f1a71d2f6a208a7cb43ffed815d0a39771ae214a96ce1d9f8",
+        "size_in_bytes": 61399
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_values.py",
+        "path_type": "hardlink",
+        "sha256": "e896b7d5c7e3a1d15c06ada8df997354c354ecfc24ae0dfd060001ba06d56d3d",
+        "sha256_in_prefix": "e896b7d5c7e3a1d15c06ada8df997354c354ecfc24ae0dfd060001ba06d56d3d",
+        "size_in_bytes": 10316
+      },
+      {
+        "_path": "site-packages/pydicom/tests/test_waveform.py",
+        "path_type": "hardlink",
+        "sha256": "eb514c6a464fb2d2ad6de599b7fadafcff889c37d199e0e70060f877484bea0d",
+        "sha256_in_prefix": "eb514c6a464fb2d2ad6de599b7fadafcff889c37d199e0e70060f877484bea0d",
+        "size_in_bytes": 5250
+      },
+      {
+        "_path": "site-packages/pydicom/uid.py",
+        "path_type": "hardlink",
+        "sha256": "b0726f5faab9c3a50d48ce371dccb4eb5241571add47494b66046dfbff96f53a",
+        "sha256_in_prefix": "b0726f5faab9c3a50d48ce371dccb4eb5241571add47494b66046dfbff96f53a",
+        "size_in_bytes": 34984
+      },
+      {
+        "_path": "site-packages/pydicom/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pydicom/util/codify.py",
+        "path_type": "hardlink",
+        "sha256": "c09620e383b4efcfbc320c9587e6120b88edd266da5cd99fcedd02ae442cd43b",
+        "sha256_in_prefix": "c09620e383b4efcfbc320c9587e6120b88edd266da5cd99fcedd02ae442cd43b",
+        "size_in_bytes": 17459
+      },
+      {
+        "_path": "site-packages/pydicom/util/dump.py",
+        "path_type": "hardlink",
+        "sha256": "8996fd4149403eabb51f96173df68d222f5794de107988756c935c04f7404757",
+        "sha256_in_prefix": "8996fd4149403eabb51f96173df68d222f5794de107988756c935c04f7404757",
+        "size_in_bytes": 3956
+      },
+      {
+        "_path": "site-packages/pydicom/util/fixer.py",
+        "path_type": "hardlink",
+        "sha256": "c8019c32b4e2faea593d584184473e393a7edf300f279569f5ba737556709fcf",
+        "sha256_in_prefix": "c8019c32b4e2faea593d584184473e393a7edf300f279569f5ba737556709fcf",
+        "size_in_bytes": 4259
+      },
+      {
+        "_path": "site-packages/pydicom/util/hexutil.py",
+        "path_type": "hardlink",
+        "sha256": "c2a3f3123483cf6bef2dd5f95366d23227af0b79ddf647675601705c529da98f",
+        "sha256_in_prefix": "c2a3f3123483cf6bef2dd5f95366d23227af0b79ddf647675601705c529da98f",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "site-packages/pydicom/util/leanread.py",
+        "path_type": "hardlink",
+        "sha256": "f92726cc2f10246cef0fad5bef853a002d6d92250599dc475d8251406b51ac80",
+        "sha256_in_prefix": "f92726cc2f10246cef0fad5bef853a002d6d92250599dc475d8251406b51ac80",
+        "size_in_bytes": 6465
+      },
+      {
+        "_path": "site-packages/pydicom/valuerep.py",
+        "path_type": "hardlink",
+        "sha256": "5b543f3bacdb7ce75855f92a3b8d7c5695b16336d7bf97c3f6919dfe081cfa5b",
+        "sha256_in_prefix": "5b543f3bacdb7ce75855f92a3b8d7c5695b16336d7bf97c3f6919dfe081cfa5b",
+        "size_in_bytes": 73466
+      },
+      {
+        "_path": "site-packages/pydicom/values.py",
+        "path_type": "hardlink",
+        "sha256": "46606249852518ee05c8da0e4ef0aa18beb1a4c5e0f744ef7c6a4c47d9ee76b6",
+        "sha256_in_prefix": "46606249852518ee05c8da0e4ef0aa18beb1a4c5e0f744ef7c6a4c47d9ee76b6",
+        "size_in_bytes": 26630
+      },
+      {
+        "_path": "site-packages/pydicom/waveforms/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f34495335a37d7b962d5400bfa0d25011fc6dce5b54a050d65c0c59356f7d8b3",
+        "sha256_in_prefix": "f34495335a37d7b962d5400bfa0d25011fc6dce5b54a050d65c0c59356f7d8b3",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/pydicom/waveforms/numpy_handler.py",
+        "path_type": "hardlink",
+        "sha256": "1270a482149f2d6aff31da06d725b252eb50c4a8db6e87e916c5339e87145330",
+        "sha256_in_prefix": "1270a482149f2d6aff31da06d725b252eb50c4a8db6e87e916c5339e87145330",
+        "size_in_bytes": 8580
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/_dicom_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/_private_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/_storage_sopclass_uids.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/_uid_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/charset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/cli/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/cli/__pycache__/codify.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/cli/__pycache__/main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/cli/__pycache__/show.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/compat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/data/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/data/__pycache__/data_manager.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/data/__pycache__/download.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/data/__pycache__/retry.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/datadict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/dataelem.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/dataset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/dicomdir.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/dicomio.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/encaps.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/encoders/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/encoders/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/encoders/__pycache__/gdcm.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/encoders/__pycache__/native.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/encoders/__pycache__/pylibjpeg.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/env_info.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/filebase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/filereader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/fileset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/fileutil.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/filewriter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/jsonrep.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/misc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/multival.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/overlay_data_handlers/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/overlays/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/overlays/__pycache__/numpy_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/gdcm_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/jpeg_ls_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/numpy_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/pillow_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/pylibjpeg_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/rle_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/pixel_data_handlers/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/sequence.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/sr/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/sr/__pycache__/_cid_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/sr/__pycache__/_concepts_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/sr/__pycache__/_snomed_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/sr/__pycache__/codedict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/sr/__pycache__/coding.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/tag.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/_write_stds.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/conftest.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_JPEG_LS_transfer_syntax.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_charset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_cli.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_codes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_data_manager.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_dataelem.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_dataset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_dicomdir.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_dictionary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_encaps.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_encoders.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_encoders_gdcm.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_encoders_pydicom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_env_info.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_filebase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_filereader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_fileset.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_fileutil.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_filewriter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_gdcm_pixel_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_handler_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_helpers.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_jpeg_ls_pixel_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_misc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_multival.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_numpy_pixel_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_overlay_np.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_pillow_pixel_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_pylibjpeg.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_rawread.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_rle_pixel_data.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_sequence.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_tag.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_uid.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_unicode.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_valuerep.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_values.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/tests/__pycache__/test_waveform.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/uid.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/util/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/util/__pycache__/codify.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/util/__pycache__/dump.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/util/__pycache__/fixer.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/util/__pycache__/hexutil.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/util/__pycache__/leanread.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/valuerep.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/__pycache__/values.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/waveforms/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydicom/waveforms/__pycache__/numpy_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pydicom",
+  "sha256": "a967c8660823958d07f898fc8f1a7888b5575403c5e4ce7f3b4cee7274ee5074",
+  "size": 1355301,
+  "subdir": "noarch",
+  "timestamp": 1692139920956,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pydicom-2.4.3-pyhd8ed1ab_0.conda",
+  "version": "2.4.3"
+}

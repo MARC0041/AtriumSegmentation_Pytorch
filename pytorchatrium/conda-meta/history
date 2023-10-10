@@ -1,0 +1,163 @@
+==> 2023-10-10 13:36:04 <==
+# cmd: /Users/marcusc/miniforge3/bin/conda create --prefix ./pytorchatrium python=3.8
+# conda version: 23.3.1
++defaults/osx-arm64::ca-certificates-2023.08.22-hca03da5_0
++defaults/osx-arm64::libcxx-14.0.6-h848a8c0_0
++defaults/osx-arm64::libffi-3.4.4-hca03da5_0
++defaults/osx-arm64::ncurses-6.4-h313beb8_0
++defaults/osx-arm64::openssl-3.0.11-h1a28f6b_2
++defaults/osx-arm64::pip-23.2.1-py38hca03da5_0
++defaults/osx-arm64::python-3.8.18-hb885b13_0
++defaults/osx-arm64::readline-8.2-h1a28f6b_0
++defaults/osx-arm64::setuptools-68.0.0-py38hca03da5_0
++defaults/osx-arm64::sqlite-3.41.2-h80987f9_0
++defaults/osx-arm64::tk-8.6.12-hb8d0fd4_0
++defaults/osx-arm64::wheel-0.41.2-py38hca03da5_0
++defaults/osx-arm64::xz-5.4.2-h80987f9_0
++defaults/osx-arm64::zlib-1.2.13-h5a0b063_0
+# update specs: ['python=3.8']
+==> 2023-10-10 13:37:00 <==
+# cmd: /Users/marcusc/miniforge3/bin/conda install numpy
+# conda version: 23.3.1
++conda-forge/osx-arm64::blas-2.118-openblas
++conda-forge/osx-arm64::blas-devel-3.9.0-18_osxarm64_openblas
++conda-forge/osx-arm64::libblas-3.9.0-18_osxarm64_openblas
++conda-forge/osx-arm64::libcblas-3.9.0-18_osxarm64_openblas
++conda-forge/osx-arm64::libgfortran-5.0.0-13_2_0_hd922786_1
++conda-forge/osx-arm64::libgfortran5-13.2.0-hf226fd6_1
++conda-forge/osx-arm64::liblapack-3.9.0-18_osxarm64_openblas
++conda-forge/osx-arm64::liblapacke-3.9.0-18_osxarm64_openblas
++conda-forge/osx-arm64::libopenblas-0.3.24-openmp_hd76b1f2_0
++conda-forge/osx-arm64::llvm-openmp-17.0.2-h1c12783_0
++conda-forge/osx-arm64::openblas-0.3.24-openmp_hce3e5ba_0
++defaults/osx-arm64::numpy-1.24.3-py38h1398885_0
++defaults/osx-arm64::numpy-base-1.24.3-py38h90707a3_0
+# update specs: ['numpy']
+==> 2023-10-10 13:37:43 <==
+# cmd: /Users/marcusc/miniforge3/condabin/conda install -c conda-forge --prefix /Users/marcusc/Desktop/MyRepos/AtriumSegmentation_Pytorch/pytorchatrium ipykernel -y
+# conda version: 23.3.1
+-defaults/osx-arm64::ca-certificates-2023.08.22-hca03da5_0
+-defaults/osx-arm64::openssl-3.0.11-h1a28f6b_2
++conda-forge/noarch::appnope-0.1.3-pyhd8ed1ab_0
++conda-forge/noarch::asttokens-2.4.0-pyhd8ed1ab_0
++conda-forge/noarch::backcall-0.2.0-pyh9f0ad1d_0
++conda-forge/noarch::backports-1.0-pyhd8ed1ab_3
++conda-forge/noarch::backports.functools_lru_cache-1.6.5-pyhd8ed1ab_0
++conda-forge/noarch::comm-0.1.4-pyhd8ed1ab_0
++conda-forge/noarch::decorator-5.1.1-pyhd8ed1ab_0
++conda-forge/noarch::entrypoints-0.4-pyhd8ed1ab_0
++conda-forge/noarch::executing-1.2.0-pyhd8ed1ab_0
++conda-forge/noarch::ipykernel-6.25.2-pyh1050b4e_0
++conda-forge/noarch::ipython-8.12.0-pyhd1c38e8_0
++conda-forge/noarch::jedi-0.19.1-pyhd8ed1ab_0
++conda-forge/noarch::jupyter_client-7.3.4-pyhd8ed1ab_0
++conda-forge/noarch::matplotlib-inline-0.1.6-pyhd8ed1ab_0
++conda-forge/noarch::nest-asyncio-1.5.6-pyhd8ed1ab_0
++conda-forge/noarch::packaging-23.2-pyhd8ed1ab_0
++conda-forge/noarch::parso-0.8.3-pyhd8ed1ab_0
++conda-forge/noarch::pexpect-4.8.0-pyh1a96a4e_2
++conda-forge/noarch::pickleshare-0.7.5-py_1003
++conda-forge/noarch::platformdirs-3.11.0-pyhd8ed1ab_0
++conda-forge/noarch::prompt-toolkit-3.0.39-pyha770c72_0
++conda-forge/noarch::prompt_toolkit-3.0.39-hd8ed1ab_0
++conda-forge/noarch::ptyprocess-0.7.0-pyhd3deb0d_0
++conda-forge/noarch::pure_eval-0.2.2-pyhd8ed1ab_0
++conda-forge/noarch::pygments-2.16.1-pyhd8ed1ab_0
++conda-forge/noarch::python-dateutil-2.8.2-pyhd8ed1ab_0
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
++conda-forge/noarch::stack_data-0.6.2-pyhd8ed1ab_0
++conda-forge/noarch::traitlets-5.11.2-pyhd8ed1ab_0
++conda-forge/noarch::typing-extensions-4.8.0-hd8ed1ab_0
++conda-forge/noarch::typing_extensions-4.8.0-pyha770c72_0
++conda-forge/noarch::wcwidth-0.2.8-pyhd8ed1ab_0
++conda-forge/osx-arm64::ca-certificates-2023.7.22-hf0a4a13_0
++conda-forge/osx-arm64::libsodium-1.0.18-h27ca646_1
++conda-forge/osx-arm64::openssl-3.1.3-h53f4e23_0
++conda-forge/osx-arm64::python_abi-3.8-2_cp38
++conda-forge/osx-arm64::tornado-6.1-py38hea4295b_1
++conda-forge/osx-arm64::zeromq-4.3.4-hbdafb3b_1
++defaults/osx-arm64::debugpy-1.6.7-py38h313beb8_0
++defaults/osx-arm64::jupyter_core-5.3.0-py38hca03da5_0
++defaults/osx-arm64::psutil-5.9.0-py38h1a28f6b_0
++defaults/osx-arm64::pyzmq-25.1.0-py38h313beb8_0
+# update specs: ['ipykernel']
+==> 2023-10-10 13:39:46 <==
+# cmd: /Users/marcusc/miniforge3/bin/conda install pandas
+# conda version: 23.3.1
+-conda-forge/osx-arm64::ca-certificates-2023.7.22-hf0a4a13_0
+-conda-forge/osx-arm64::openssl-3.1.3-h53f4e23_0
++defaults/noarch::python-tzdata-2023.3-pyhd3eb1b0_0
++defaults/osx-arm64::bottleneck-1.3.5-py38heec5a64_0
++defaults/osx-arm64::ca-certificates-2023.08.22-hca03da5_0
++defaults/osx-arm64::numexpr-2.8.4-py38h79ee842_1
++defaults/osx-arm64::openssl-3.0.11-h1a28f6b_2
++defaults/osx-arm64::pandas-2.0.3-py38h46d7db6_0
++defaults/osx-arm64::pytz-2023.3.post1-py38hca03da5_0
+# update specs: ['pandas']
+==> 2023-10-10 13:40:27 <==
+# cmd: /Users/marcusc/miniforge3/bin/conda install matplotlib -y
+# conda version: 23.3.1
++defaults/noarch::cycler-0.11.0-pyhd3eb1b0_0
++defaults/noarch::fonttools-4.25.0-pyhd3eb1b0_0
++defaults/noarch::importlib_resources-5.2.0-pyhd3eb1b0_1
++defaults/noarch::munkres-1.1.4-py_0
++defaults/osx-arm64::brotli-1.0.9-h1a28f6b_7
++defaults/osx-arm64::brotli-bin-1.0.9-h1a28f6b_7
++defaults/osx-arm64::contourpy-1.0.5-py38h525c30c_0
++defaults/osx-arm64::freetype-2.12.1-h1192e45_0
++defaults/osx-arm64::giflib-5.2.1-h80987f9_3
++defaults/osx-arm64::jpeg-9e-h80987f9_1
++defaults/osx-arm64::kiwisolver-1.4.4-py38h313beb8_0
++defaults/osx-arm64::lcms2-2.12-hba8e193_0
++defaults/osx-arm64::lerc-3.0-hc377ac9_0
++defaults/osx-arm64::libbrotlicommon-1.0.9-h1a28f6b_7
++defaults/osx-arm64::libbrotlidec-1.0.9-h1a28f6b_7
++defaults/osx-arm64::libbrotlienc-1.0.9-h1a28f6b_7
++defaults/osx-arm64::libdeflate-1.17-h80987f9_1
++defaults/osx-arm64::libpng-1.6.39-h80987f9_0
++defaults/osx-arm64::libtiff-4.5.1-h313beb8_0
++defaults/osx-arm64::libwebp-1.3.2-ha3663a8_0
++defaults/osx-arm64::libwebp-base-1.3.2-h80987f9_0
++defaults/osx-arm64::lz4-c-1.9.4-h313beb8_0
++defaults/osx-arm64::matplotlib-3.7.2-py38hca03da5_0
++defaults/osx-arm64::matplotlib-base-3.7.2-py38h46d7db6_0
++defaults/osx-arm64::openjpeg-2.3.0-h7a6adac_2
++defaults/osx-arm64::pillow-10.0.1-py38h3b245a6_0
++defaults/osx-arm64::pyparsing-3.0.9-py38hca03da5_0
++defaults/osx-arm64::zipp-3.11.0-py38hca03da5_0
++defaults/osx-arm64::zstd-1.5.5-hd90d995_0
+# update specs: ['matplotlib']
+==> 2023-10-10 13:44:06 <==
+# cmd: /Users/marcusc/miniforge3/bin/conda install -c conda-forge tqdm
+# conda version: 23.3.1
+-defaults/osx-arm64::ca-certificates-2023.08.22-hca03da5_0
+-defaults/osx-arm64::openssl-3.0.11-h1a28f6b_2
++conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_0
++conda-forge/noarch::tqdm-4.66.1-pyhd8ed1ab_0
++conda-forge/osx-arm64::ca-certificates-2023.7.22-hf0a4a13_0
++conda-forge/osx-arm64::openssl-3.1.3-h53f4e23_0
+# update specs: ['tqdm']
+==> 2023-10-10 13:46:10 <==
+# cmd: /Users/marcusc/miniforge3/bin/conda install dicom2nifti nibabel pydicom -y
+# conda version: 23.3.1
+-conda-forge/osx-arm64::ca-certificates-2023.7.22-hf0a4a13_0
+-conda-forge/osx-arm64::openssl-3.1.3-h53f4e23_0
++conda-forge/noarch::dicom2nifti-2.3.4-pyhd3deb0d_0
++conda-forge/noarch::nibabel-5.0.1-pyhd8ed1ab_0
++conda-forge/noarch::pydicom-2.4.3-pyhd8ed1ab_0
++defaults/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
++defaults/noarch::pycparser-2.21-pyhd3eb1b0_0
++defaults/osx-arm64::brotlipy-0.7.0-py38h1a28f6b_1002
++defaults/osx-arm64::ca-certificates-2023.08.22-hca03da5_0
++defaults/osx-arm64::certifi-2023.7.22-py38hca03da5_0
++defaults/osx-arm64::cffi-1.15.1-py38h80987f9_3
++defaults/osx-arm64::cryptography-41.0.3-py38hd4332d6_0
++defaults/osx-arm64::idna-3.4-py38hca03da5_0
++defaults/osx-arm64::openssl-3.0.11-h1a28f6b_2
++defaults/osx-arm64::pooch-1.7.0-py38hca03da5_0
++defaults/osx-arm64::pyopenssl-23.2.0-py38hca03da5_0
++defaults/osx-arm64::pysocks-1.7.1-py38hca03da5_0
++defaults/osx-arm64::requests-2.31.0-py38hca03da5_0
++defaults/osx-arm64::scipy-1.10.1-py38h9d039d2_1
++defaults/osx-arm64::urllib3-1.26.16-py38hca03da5_0
+# update specs: ['nibabel', 'dicom2nifti', 'pydicom']

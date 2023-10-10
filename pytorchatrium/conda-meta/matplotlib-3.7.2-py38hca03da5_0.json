@@ -1,0 +1,37 @@
+{
+  "build": "py38hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.7.2,<3.7.3.0a0",
+    "python >=3.8,<3.9.0a0",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/Users/marcusc/miniforge3/pkgs/matplotlib-3.7.2-py38hca03da5_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.7.2-py38hca03da5_0.conda",
+  "legacy_bz2_md5": "a07021fc2ced010948fc4d8218698ea5",
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/marcusc/miniforge3/pkgs/matplotlib-3.7.2-py38hca03da5_0",
+    "type": 1
+  },
+  "md5": "aea9cbb0c9a629f44098ba2ccd6e831d",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/marcusc/miniforge3/pkgs/matplotlib-3.7.2-py38hca03da5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "3a70d84baca742833c0749d3eb70a022b668044221a2dde1e1d8821f240b6fc7",
+  "size": 9080,
+  "subdir": "osx-arm64",
+  "timestamp": 1693812773463,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/matplotlib-3.7.2-py38hca03da5_0.conda",
+  "version": "3.7.2"
+}

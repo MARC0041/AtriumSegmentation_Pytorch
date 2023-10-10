@@ -1,0 +1,324 @@
+{
+  "build": "pyhd3deb0d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "nibabel",
+    "numpy",
+    "pydicom",
+    "python",
+    "scipy"
+  ],
+  "extracted_package_dir": "/Users/marcusc/miniforge3/pkgs/dicom2nifti-2.3.4-pyhd3deb0d_0",
+  "features": "",
+  "files": [
+    "bin/dicom2nifti",
+    "lib/python3.8/site-packages/dicom2nifti-2.3.4.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/dicom2nifti-2.3.4.dist-info/LICENSE",
+    "lib/python3.8/site-packages/dicom2nifti-2.3.4.dist-info/METADATA",
+    "lib/python3.8/site-packages/dicom2nifti-2.3.4.dist-info/RECORD",
+    "lib/python3.8/site-packages/dicom2nifti-2.3.4.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/dicom2nifti-2.3.4.dist-info/WHEEL",
+    "lib/python3.8/site-packages/dicom2nifti-2.3.4.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/dicom2nifti-2.3.4.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/dicom2nifti/__init__.py",
+    "lib/python3.8/site-packages/dicom2nifti/common.py",
+    "lib/python3.8/site-packages/dicom2nifti/compressed_dicom.py",
+    "lib/python3.8/site-packages/dicom2nifti/convert_dicom.py",
+    "lib/python3.8/site-packages/dicom2nifti/convert_dir.py",
+    "lib/python3.8/site-packages/dicom2nifti/convert_ge.py",
+    "lib/python3.8/site-packages/dicom2nifti/convert_generic.py",
+    "lib/python3.8/site-packages/dicom2nifti/convert_hitachi.py",
+    "lib/python3.8/site-packages/dicom2nifti/convert_philips.py",
+    "lib/python3.8/site-packages/dicom2nifti/convert_siemens.py",
+    "lib/python3.8/site-packages/dicom2nifti/exceptions.py",
+    "lib/python3.8/site-packages/dicom2nifti/image_reorientation.py",
+    "lib/python3.8/site-packages/dicom2nifti/image_volume.py",
+    "lib/python3.8/site-packages/dicom2nifti/patch_pydicom_encodings.py",
+    "lib/python3.8/site-packages/dicom2nifti/resample.py",
+    "lib/python3.8/site-packages/dicom2nifti/settings.py",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/common.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/compressed_dicom.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_dicom.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_dir.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_ge.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_generic.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_hitachi.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_philips.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_siemens.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/image_reorientation.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/image_volume.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/patch_pydicom_encodings.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/resample.cpython-38.pyc",
+    "lib/python3.8/site-packages/dicom2nifti/__pycache__/settings.cpython-38.pyc"
+  ],
+  "fn": "dicom2nifti-2.3.4-pyhd3deb0d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/marcusc/miniforge3/pkgs/dicom2nifti-2.3.4-pyhd3deb0d_0",
+    "type": 1
+  },
+  "md5": "9a4b492a3201beacdc0bfcce25b5fe10",
+  "name": "dicom2nifti",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/marcusc/miniforge3/pkgs/dicom2nifti-2.3.4-pyhd3deb0d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/dicom2nifti",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/dicom2nifti_1655203332957/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "0f8bb67a68b9502c08d1eb19b0797e5d26f7f56de00fbbafd5fd7f31eeabf43e",
+        "sha256_in_prefix": "e84644e9f1d0ea8e1c30b93949dde39cd3aa83d9c0538bf3af12d544d3208f80",
+        "size_in_bytes": 4327
+      },
+      {
+        "_path": "site-packages/dicom2nifti-2.3.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dicom2nifti-2.3.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7f7de60881adc07c39a64ceac0b0abf7c1a48ebb53dceaaf7045fb8130e3d531",
+        "sha256_in_prefix": "7f7de60881adc07c39a64ceac0b0abf7c1a48ebb53dceaaf7045fb8130e3d531",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/dicom2nifti-2.3.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "bfd9ae12dfd8d7fc40ff7053285b3af67543e664ac0813fa2bde56d890ee3a54",
+        "sha256_in_prefix": "bfd9ae12dfd8d7fc40ff7053285b3af67543e664ac0813fa2bde56d890ee3a54",
+        "size_in_bytes": 1265
+      },
+      {
+        "_path": "site-packages/dicom2nifti-2.3.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "393e8bf730aa767818d8fb449f1734ba44d678c567f08dc8801805da45b63caf",
+        "sha256_in_prefix": "393e8bf730aa767818d8fb449f1734ba44d678c567f08dc8801805da45b63caf",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "site-packages/dicom2nifti-2.3.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dicom2nifti-2.3.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dicom2nifti-2.3.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1f78db879637f1c115275f8ed0495ad11c9ae786ac5bb9f414ced994e3992987",
+        "sha256_in_prefix": "1f78db879637f1c115275f8ed0495ad11c9ae786ac5bb9f414ced994e3992987",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/dicom2nifti-2.3.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "65f7faa0a297eb7ce6a769ad0ea5b96cf91e3c4d211ea4758bb79a0cd812530d",
+        "sha256_in_prefix": "65f7faa0a297eb7ce6a769ad0ea5b96cf91e3c4d211ea4758bb79a0cd812530d",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/dicom2nifti/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "22ed6bc5faa37f357bdb038886f6dd73018e3c15154e6a5a400e169aa598e0ae",
+        "sha256_in_prefix": "22ed6bc5faa37f357bdb038886f6dd73018e3c15154e6a5a400e169aa598e0ae",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "site-packages/dicom2nifti/common.py",
+        "path_type": "hardlink",
+        "sha256": "65372bbabfa87794f889eec5005fe47d67f139b0eecee6ba6c465a0093bd2b08",
+        "sha256_in_prefix": "65372bbabfa87794f889eec5005fe47d67f139b0eecee6ba6c465a0093bd2b08",
+        "size_in_bytes": 36714
+      },
+      {
+        "_path": "site-packages/dicom2nifti/compressed_dicom.py",
+        "path_type": "hardlink",
+        "sha256": "690122d42ec7df2298c94ee77d055dd5558ab22ed822451d5841150b6b18da32",
+        "sha256_in_prefix": "690122d42ec7df2298c94ee77d055dd5558ab22ed822451d5841150b6b18da32",
+        "size_in_bytes": 4776
+      },
+      {
+        "_path": "site-packages/dicom2nifti/convert_dicom.py",
+        "path_type": "hardlink",
+        "sha256": "7fe4b30ec0136947f03b61f75ec4afcd9894a629d8cdea58a31ccc3e8463dbad",
+        "sha256_in_prefix": "7fe4b30ec0136947f03b61f75ec4afcd9894a629d8cdea58a31ccc3e8463dbad",
+        "size_in_bytes": 7521
+      },
+      {
+        "_path": "site-packages/dicom2nifti/convert_dir.py",
+        "path_type": "hardlink",
+        "sha256": "29f64f9fdbc77f654baf67514f2053f19750bef26d06113c407609ca793a3bf0",
+        "sha256_in_prefix": "29f64f9fdbc77f654baf67514f2053f19750bef26d06113c407609ca793a3bf0",
+        "size_in_bytes": 6550
+      },
+      {
+        "_path": "site-packages/dicom2nifti/convert_ge.py",
+        "path_type": "hardlink",
+        "sha256": "00731151d1e84e14dddb8481b0e37d48924ce70b47eaa99a13bdf0173494ffec",
+        "sha256_in_prefix": "00731151d1e84e14dddb8481b0e37d48924ce70b47eaa99a13bdf0173494ffec",
+        "size_in_bytes": 10275
+      },
+      {
+        "_path": "site-packages/dicom2nifti/convert_generic.py",
+        "path_type": "hardlink",
+        "sha256": "732ac6e160c376a398470ac336edc2aef4d091b1dd8f4486a45446bf8ddee329",
+        "sha256_in_prefix": "732ac6e160c376a398470ac336edc2aef4d091b1dd8f4486a45446bf8ddee329",
+        "size_in_bytes": 13496
+      },
+      {
+        "_path": "site-packages/dicom2nifti/convert_hitachi.py",
+        "path_type": "hardlink",
+        "sha256": "150b8fd2ced2406555b9dea397f2bece6281c6d57d4d00b0ebd603cb69741ea6",
+        "sha256_in_prefix": "150b8fd2ced2406555b9dea397f2bece6281c6d57d4d00b0ebd603cb69741ea6",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "site-packages/dicom2nifti/convert_philips.py",
+        "path_type": "hardlink",
+        "sha256": "571ad7b506de874d3a96d52be487653e7dc063ef2813b6c1ce511e10990c2b5a",
+        "sha256_in_prefix": "571ad7b506de874d3a96d52be487653e7dc063ef2813b6c1ce511e10990c2b5a",
+        "size_in_bytes": 24442
+      },
+      {
+        "_path": "site-packages/dicom2nifti/convert_siemens.py",
+        "path_type": "hardlink",
+        "sha256": "a4a0573d8147d4df964adba9e8a7321b8521329db2ee6bade4c7b3caf3bed209",
+        "sha256_in_prefix": "a4a0573d8147d4df964adba9e8a7321b8521329db2ee6bade4c7b3caf3bed209",
+        "size_in_bytes": 22638
+      },
+      {
+        "_path": "site-packages/dicom2nifti/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f48a2c02fd754a1919ce95018a1fd9c6e7285daf7bad396bfa6d17693be02f73",
+        "sha256_in_prefix": "f48a2c02fd754a1919ce95018a1fd9c6e7285daf7bad396bfa6d17693be02f73",
+        "size_in_bytes": 664
+      },
+      {
+        "_path": "site-packages/dicom2nifti/image_reorientation.py",
+        "path_type": "hardlink",
+        "sha256": "a0cea4a42f4e5faf88251ff33e82f36af73ed1905c666265d04dda33c7e72711",
+        "sha256_in_prefix": "a0cea4a42f4e5faf88251ff33e82f36af73ed1905c666265d04dda33c7e72711",
+        "size_in_bytes": 6865
+      },
+      {
+        "_path": "site-packages/dicom2nifti/image_volume.py",
+        "path_type": "hardlink",
+        "sha256": "0fca15107f43bd0c3f311d6b7eca747238339d7ad9dade0b39d0f5a8cea2c709",
+        "sha256_in_prefix": "0fca15107f43bd0c3f311d6b7eca747238339d7ad9dade0b39d0f5a8cea2c709",
+        "size_in_bytes": 11215
+      },
+      {
+        "_path": "site-packages/dicom2nifti/patch_pydicom_encodings.py",
+        "path_type": "hardlink",
+        "sha256": "ae7a7ebe8759d643c79045089c4326b2838ce2857cdd879fd5892a9c205cc800",
+        "sha256_in_prefix": "ae7a7ebe8759d643c79045089c4326b2838ce2857cdd879fd5892a9c205cc800",
+        "size_in_bytes": 2219
+      },
+      {
+        "_path": "site-packages/dicom2nifti/resample.py",
+        "path_type": "hardlink",
+        "sha256": "af23bc5b0610edac19c4616e1edf751ef14a40f93f72892ef681fcae61a1b467",
+        "sha256_in_prefix": "af23bc5b0610edac19c4616e1edf751ef14a40f93f72892ef681fcae61a1b467",
+        "size_in_bytes": 6465
+      },
+      {
+        "_path": "site-packages/dicom2nifti/settings.py",
+        "path_type": "hardlink",
+        "sha256": "fd1763dc117b73c27aa46497071d61cbbde01c97c319e41719edff9e65ffd9de",
+        "sha256_in_prefix": "fd1763dc117b73c27aa46497071d61cbbde01c97c319e41719edff9e65ffd9de",
+        "size_in_bytes": 4835
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/common.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/compressed_dicom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_dicom.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_dir.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_ge.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_generic.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_hitachi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_philips.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/convert_siemens.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/image_reorientation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/image_volume.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/patch_pydicom_encodings.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/resample.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dicom2nifti/__pycache__/settings.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "dicom2nifti",
+  "sha256": "df9d667eec2d939d1e1d2eea8b9af7f34f75a09898094f37e5a0355198fb26ec",
+  "size": 35500,
+  "subdir": "noarch",
+  "timestamp": 1655203560930,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dicom2nifti-2.3.4-pyhd3deb0d_0.tar.bz2",
+  "version": "2.3.4"
+}

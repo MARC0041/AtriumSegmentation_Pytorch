@@ -1,0 +1,61 @@
+{
+  "build": "18_osxarm64_openblas",
+  "build_number": 18,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libblas 3.9.0 18_osxarm64_openblas",
+    "libcblas 3.9.0 18_osxarm64_openblas",
+    "liblapack 3.9.0 18_osxarm64_openblas",
+    "liblapacke 3.9.0 18_osxarm64_openblas",
+    "openblas 0.3.24.*"
+  ],
+  "extracted_package_dir": "/Users/marcusc/miniforge3/pkgs/blas-devel-3.9.0-18_osxarm64_openblas",
+  "features": "",
+  "files": [
+    "lib/pkgconfig/blas.pc",
+    "lib/pkgconfig/cblas.pc",
+    "lib/pkgconfig/lapack.pc"
+  ],
+  "fn": "blas-devel-3.9.0-18_osxarm64_openblas.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/marcusc/miniforge3/pkgs/blas-devel-3.9.0-18_osxarm64_openblas",
+    "type": 1
+  },
+  "md5": "97f9a3226b1068337e6c685b703b30e2",
+  "name": "blas-devel",
+  "package_tarball_full_path": "/Users/marcusc/miniforge3/pkgs/blas-devel-3.9.0-18_osxarm64_openblas.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/blas.pc",
+        "path_type": "softlink",
+        "sha256": "f9f647ba34801bd0227d7ce99be6a3a6ea0ecdf9a633be6f45eb8f2484b0a0b2",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "lib/pkgconfig/cblas.pc",
+        "path_type": "softlink",
+        "sha256": "f9f647ba34801bd0227d7ce99be6a3a6ea0ecdf9a633be6f45eb8f2484b0a0b2",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "lib/pkgconfig/lapack.pc",
+        "path_type": "softlink",
+        "sha256": "f9f647ba34801bd0227d7ce99be6a3a6ea0ecdf9a633be6f45eb8f2484b0a0b2",
+        "size_in_bytes": 1025
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7264738a1922286b904065d7d9e61390a8b88cc7906aea57bc5175e0a77004e3",
+  "size": 14776,
+  "subdir": "osx-arm64",
+  "timestamp": 1693951952316,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/blas-devel-3.9.0-18_osxarm64_openblas.conda",
+  "version": "3.9.0"
+}
