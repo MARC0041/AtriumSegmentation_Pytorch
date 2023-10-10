@@ -15,6 +15,7 @@ Document the steps for downloading the files, but due to large file sizes, gitig
 ```
 *.nii.gz
 Task02_Heart/dataset.json
+*.npy
 ```
 
 ## Setup conda env
