@@ -27,6 +27,10 @@ conda install pandas -y
 conda install matplotlib -y
 conda install -c conda-forge tqdm
 conda install dicom2nifti nibabel pydicom -y
+conda install jupyter -y
+
+<!-- make sure the kernel is visible on jupyter -->
+python -m ipykernel install --user --name=pytorchatrium
 
 <!-- conda install pytorch::pytorch torchvision torchaudio -c pytorch -y
 conda install pandas numpy matplotlib -y

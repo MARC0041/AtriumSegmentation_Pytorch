@@ -1,0 +1,108 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/Users/marcusc/miniforge3/pkgs/celluloid-0.2.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/celluloid-0.2.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/celluloid-0.2.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/celluloid-0.2.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/celluloid-0.2.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/celluloid-0.2.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/celluloid-0.2.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/celluloid-0.2.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/celluloid.py",
+    "lib/python3.8/site-packages/__pycache__/celluloid.cpython-38.pyc"
+  ],
+  "fn": "celluloid-0.2.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/marcusc/miniforge3/pkgs/celluloid-0.2.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "946a4175fe3345e54660073fce22c943",
+  "name": "celluloid",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/marcusc/miniforge3/pkgs/celluloid-0.2.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/celluloid-0.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/celluloid-0.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "39d48cd6cba1de7cfbd23cf1080f8fcb6e6391f047b99ad5650d50223601f561",
+        "sha256_in_prefix": "39d48cd6cba1de7cfbd23cf1080f8fcb6e6391f047b99ad5650d50223601f561",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "site-packages/celluloid-0.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ccffe13e65f517f1d101947ff4b741bb3b971cae2f106bf3ac97c76368e1d7a1",
+        "sha256_in_prefix": "ccffe13e65f517f1d101947ff4b741bb3b971cae2f106bf3ac97c76368e1d7a1",
+        "size_in_bytes": 4749
+      },
+      {
+        "_path": "site-packages/celluloid-0.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3699d86f0cd88ab17185403ba2f4a5084abb8932e3704dc33ba4a34932618744",
+        "sha256_in_prefix": "3699d86f0cd88ab17185403ba2f4a5084abb8932e3704dc33ba4a34932618744",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "site-packages/celluloid-0.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/celluloid-0.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e137ca201ff1bbed386dcda22b3ebfcc5b7e80414410353fdf51c686acce084f",
+        "sha256_in_prefix": "e137ca201ff1bbed386dcda22b3ebfcc5b7e80414410353fdf51c686acce084f",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/celluloid-0.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0c3030508f9cc79c6354320e66d104daefe651579012b738a053a92c7cd722b0",
+        "sha256_in_prefix": "0c3030508f9cc79c6354320e66d104daefe651579012b738a053a92c7cd722b0",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/celluloid.py",
+        "path_type": "hardlink",
+        "sha256": "c71a606110d975847f06bd9bfffa893ae34f84188991015813d62666bd764968",
+        "sha256_in_prefix": "c71a606110d975847f06bd9bfffa893ae34f84188991015813d62666bd764968",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/celluloid.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "celluloid",
+  "sha256": "f4d5f8296e133207854be7b7ff7686b72922b14db21f9bd5b80d7608d1b67573",
+  "size": 8460,
+  "subdir": "noarch",
+  "timestamp": 1648765136373,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/celluloid-0.2.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.2.0"
+}

@@ -1,0 +1,133 @@
+{
+  "build": "py38ha6e5c4f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/marcusc/miniforge3/pkgs/y-py-0.5.9-py38ha6e5c4f_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/y_py-0.5.9.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/y_py-0.5.9.dist-info/METADATA",
+    "lib/python3.8/site-packages/y_py-0.5.9.dist-info/RECORD",
+    "lib/python3.8/site-packages/y_py-0.5.9.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/y_py-0.5.9.dist-info/WHEEL",
+    "lib/python3.8/site-packages/y_py-0.5.9.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/y_py-0.5.9.dist-info/license_files/LICENSE",
+    "lib/python3.8/site-packages/y_py/__init__.py",
+    "lib/python3.8/site-packages/y_py/__init__.pyi",
+    "lib/python3.8/site-packages/y_py/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/y_py/py.typed",
+    "lib/python3.8/site-packages/y_py/y_py.cpython-38-darwin.so"
+  ],
+  "fn": "y-py-0.5.9-py38ha6e5c4f_0.conda",
+  "legacy_bz2_md5": "49fe235a7097793cf54fa395d7c2d66f",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/marcusc/miniforge3/pkgs/y-py-0.5.9-py38ha6e5c4f_0",
+    "type": 1
+  },
+  "md5": "e104b5238f3f1ffd7a027551f993f8d5",
+  "name": "y-py",
+  "package_tarball_full_path": "/Users/marcusc/miniforge3/pkgs/y-py-0.5.9-py38ha6e5c4f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/y_py-0.5.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py-0.5.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5db85132bdc069a4affe8c4fced505dbde9d7f430787d1e7dc766d99ce0e32b7",
+        "sha256_in_prefix": "5db85132bdc069a4affe8c4fced505dbde9d7f430787d1e7dc766d99ce0e32b7",
+        "size_in_bytes": 5533
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py-0.5.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "86530cbec7d647321980ecd30ca35bb086cb956c9044b9915703bed8b694ae19",
+        "sha256_in_prefix": "86530cbec7d647321980ecd30ca35bb086cb956c9044b9915703bed8b694ae19",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py-0.5.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py-0.5.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "73d3d26ab55a346d28a72d07d94e77b70c654d3aee2f854ceb345f0b6019ea12",
+        "sha256_in_prefix": "73d3d26ab55a346d28a72d07d94e77b70c654d3aee2f854ceb345f0b6019ea12",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py-0.5.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e850498574171da8ba0dbca9c6da3e91b8052d31a542068eeeeb072889d7b87f",
+        "sha256_in_prefix": "e850498574171da8ba0dbca9c6da3e91b8052d31a542068eeeeb072889d7b87f",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py-0.5.9.dist-info/license_files/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b6d81564e9c46473907bd3c09d4d5ab0f21cfbe6ac35d46daf1bdb0423182a5b",
+        "sha256_in_prefix": "b6d81564e9c46473907bd3c09d4d5ab0f21cfbe6ac35d46daf1bdb0423182a5b",
+        "size_in_bytes": 1153
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "871927e8c619f2a9eba5b011a10c4e57c885f873eac9024578cafd9f0f57e71c",
+        "sha256_in_prefix": "871927e8c619f2a9eba5b011a10c4e57c885f873eac9024578cafd9f0f57e71c",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "19d957fcbd5f00b99df9acebaf11526f44a73947880d0b6ae7bf6a1a921b8679",
+        "sha256_in_prefix": "19d957fcbd5f00b99df9acebaf11526f44a73947880d0b6ae7bf6a1a921b8679",
+        "size_in_bytes": 41726
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "291aa58a67b3375e7bafec4281fb80b29b71f4fd1fd25d103cfdead3ef3867c8",
+        "sha256_in_prefix": "291aa58a67b3375e7bafec4281fb80b29b71f4fd1fd25d103cfdead3ef3867c8",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/y_py/y_py.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "88dbb6b97f033d9886ba41cca936b7c9b5198d3acd195322e76638da025014cd",
+        "sha256_in_prefix": "88dbb6b97f033d9886ba41cca936b7c9b5198d3acd195322e76638da025014cd",
+        "size_in_bytes": 1880272
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "14d7775647f8148b4ad309fffca37d40f26777ed7e6d7267c3e7b76723f483dd",
+  "size": 615843,
+  "subdir": "osx-arm64",
+  "timestamp": 1683555539271,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/y-py-0.5.9-py38ha6e5c4f_0.conda",
+  "version": "0.5.9"
+}

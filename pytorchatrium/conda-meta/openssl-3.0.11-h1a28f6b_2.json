@@ -169,7 +169,6 @@
   ],
   "fn": "openssl-3.0.11-h1a28f6b_2.conda",
   "legacy_bz2_md5": "fa15d3b44ae1360ac9b640bbd5b6923c",
-  "legacy_bz2_size": 4746123,
   "license": "Apache-2.0",
   "license_family": "Apache",
   "link": {
@@ -1169,7 +1168,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_27itj25iwx/croot/openssl_1695322276789/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
         "sha256": "47c3e66877f43fcc0585762c613081d51c1ac7e819f77c77242f725d066b4c46",
-        "sha256_in_prefix": "6af6d93d3745580ba25ef5a14349ae5d7fea0bc25e239fa3edd7c791a820822e",
+        "sha256_in_prefix": "f252d8bc133a01e8d5458fe28ea01b0f970ea5622f38fde256856006844d0901",
         "size_in_bytes": 3537840
       },
       {
