@@ -1,5 +1,6 @@
 *.nii.gz
 Task02_Heart/dataset.json
+*.npy
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
