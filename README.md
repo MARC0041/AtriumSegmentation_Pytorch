@@ -23,4 +23,6 @@ conda create --prefix ./pytorch_arm64_atrium python=3.9
 conda activate ./pytorch_arm64_atrium
 
 conda install pytorch::pytorch torchvision torchaudio -c pytorch -y
+conda install jupyter pandas numpy matplotlib -y
 ```
+*When running the notebook cell in vs code, it will prompt you to download the notebook package. 
